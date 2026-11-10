@@ -1,0 +1,127 @@
+{
+  "seed": 2002,
+  "people": 10,
+  "events": 120,
+  "conflicts": {
+    "p01": 0,
+    "p02": 0,
+    "p03": 2,
+    "p04": 2,
+    "p05": 4,
+    "p06": 4,
+    "p07": 0,
+    "p08": 0,
+    "p09": 0,
+    "p10": 0
+  },
+  "roles": {
+    "p01": "acquaintance",
+    "p02": "friend",
+    "p03": "acquaintance",
+    "p04": "acquaintance",
+    "p05": "acquaintance",
+    "p06": "companion",
+    "p07": "acquaintance",
+    "p08": "family",
+    "p09": "acquaintance",
+    "p10": "acquaintance"
+  },
+  "retrieved": 86,
+  "recall_changes": 45,
+  "state_changes": 41,
+  "strategies": {
+    "compare_with_verified_example": 18,
+    "propose_sandbox_trial": 28,
+    "request_method": 34,
+    "independent_check": 40
+  },
+  "explanation": {
+    "score": 0.5797728749081947,
+    "masses": [
+      3.7127765848115093,
+      2.1406967873536003
+    ],
+    "basis": [
+      {
+        "id": "p05-01",
+        "at": "2026-01-02T08:04:00.000000+00:00",
+        "source_ref": "fixture:p05-01",
+        "reason": "共同交付物通过验收",
+        "signed_evidence": 0.85,
+        "opposed_prior": false
+      },
+      {
+        "id": "p05-02",
+        "at": "2026-01-03T08:04:00.000000+00:00",
+        "source_ref": "fixture:p05-02",
+        "reason": "共同交付物通过验收",
+        "signed_evidence": 0.85,
+        "opposed_prior": false
+      },
+      {
+        "id": "p05-03",
+        "at": "2026-01-04T08:04:00.000000+00:00",
+        "source_ref": "fixture:p05-03",
+        "reason": "共同交付物通过验收",
+        "signed_evidence": 0.85,
+        "opposed_prior": false
+      },
+      {
+        "id": "p05-04",
+        "at": "2026-01-05T08:04:00.000000+00:00",
+        "source_ref": "fixture:p05-04",
+        "reason": "独立对照确认陈述不实",
+        "signed_evidence": -1.9,
+        "opposed_prior": true
+      },
+      {
+        "id": "p05-05",
+        "at": "2026-01-06T08:04:00.000000+00:00",
+        "source_ref": "fixture:p05-05",
+        "reason": "独立对照确认陈述不实",
+        "signed_evidence": -1.5,
+        "opposed_prior": true
+      },
+      {
+        "id": "p05-08",
+        "at": "2026-01-09T08:04:00.000000+00:00",
+        "source_ref": "fixture:p05-08",
+        "reason": "后续承诺得到独立核实",
+        "signed_evidence": 0.6174999999999999,
+        "opposed_prior": true
+      },
+      {
+        "id": "p05-09",
+        "at": "2026-01-10T08:04:00.000000+00:00",
+        "source_ref": "fixture:p05-09",
+        "reason": "后续承诺得到独立核实",
+        "signed_evidence": 0.5525,
+        "opposed_prior": true
+      },
+      {
+        "id": "p05-10",
+        "at": "2026-01-11T08:04:00.000000+00:00",
+        "source_ref": "fixture:p05-10",
+        "reason": "后续承诺得到独立核实",
+        "signed_evidence": 0.5525,
+        "opposed_prior": false
+      },
+      {
+        "id": "p05-11",
+        "at": "2026-01-12T08:04:00.000000+00:00",
+        "source_ref": "fixture:p05-11",
+        "reason": "后续承诺得到独立核实",
+        "signed_evidence": 0.5525,
+        "opposed_prior": false
+      },
+      {
+        "id": "p05-12",
+        "at": "2026-01-13T08:04:00.000000+00:00",
+        "source_ref": "fixture:p05-12",
+        "reason": "后续承诺得到独立核实",
+        "signed_evidence": 0.5525,
+        "opposed_prior": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "prior": 2,
+  "retention": 0.92,
+  "familiarity_step": 0.12,
+  "affect_retention": 0.8,
+  "acquaintance_at": 0.5,
+  "trust_at": 0.65,
+  "caution_at": 0.66,
+  "uncertainty_at": 0.68,
+  "engagement_at": 0.56,
+  "min_confidence": 0.5,
+  "verifiers": [
+    "synthetic-verifier"
+  ],
+  "rules": {
+    "contact": {
+      "reason": "接触得到确认，仅增加熟悉度",
+      "weights": {}
+    },
+    "help": {
+      "reason": "帮助有可核查的结果",
+      "weights": {
+        "general": 0.5,
+        "closeness": 0.04,
+        "positive_valence": 0.09,
+        "engagement": 0.06
+      }
+    },
+    "project": {
+      "reason": "共同交付物通过验收",
+      "weights": {
+        "general": 1,
+        "domain": 1,
+        "closeness": 0.07,
+        "positive_valence": 0.08,
+        "engagement": 0.06
+      }
+    },
+    "hobby": {
+      "reason": "双方确认共同爱好",
+      "weights": {
+        "closeness": 0.09,
+        "curiosity": 0.1,
+        "engagement": 0.08
+      }
+    },
+    "deception": {
+      "reason": "独立对照确认陈述不实",
+      "weights": {
+        "general": -1,
+        "domain": -2,
+        "closeness": -0.1,
+        "caution": 0.22,
+        "uncertainty": 0.12,
+        "positive_valence": -0.15
+      }
+    },
+    "criticism": {
+      "reason": "措辞严厉，但批评内容经核查正确",
+      "weights": {
+        "general": 0.4,
+        "domain": 1,
+        "closeness": -0.04,
+        "caution": 0.06,
+        "positive_valence": -0.09,
+        "curiosity": 0.05
+      }
+    },
+    "advice": {
+      "reason": "建议经结果核验准确",
+      "weights": {
+        "general": 0.55,
+        "domain": 1.2,
+        "uncertainty": -0.08,
+        "caution": -0.04,
+        "engagement": 0.05
+      }
+    },
+    "error": {
+      "reason": "专业建议经复核有误",
+      "weights": {
+        "domain": -1.4,
+        "uncertainty": 0.13,
+        "caution": 0.09
+      }
+    },
+    "misunderstanding": {
+      "reason": "双方对任务理解不一致，责任尚未确定",
+      "weights": {
+        "closeness": -0.04,
+        "uncertainty": 0.15,
+        "engagement": -0.06
+      }
+    },
+    "clarified": {
+      "reason": "任务描述经复核已澄清",
+      "weights": {
+        "closeness": 0.05,
+        "uncertainty": -0.15,
+        "engagement": 0.06
+      }
+    },
+    "repair": {
+      "reason": "后续承诺得到独立核实",
+      "weights": {
+        "general": 0.8,
+        "domain": 0.65,
+        "closeness": 0.06,
+        "caution": -0.1,
+        "positive_valence": 0.09
+      }
+    }
+  }
+}

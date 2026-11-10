@@ -2,7 +2,7 @@
 
 > An experiment in persistent memory, self-reflection, and accountable autonomous learning.
 
-**Status:** Phase 01 — persistent-memory prototype (2026-11-10). Not a conscious AI system, not a production-ready autonomous agent.
+**Status:** ECHO-002 — offline research on persistent memory and experience-driven relationship judgments (2026-11-10).
 
 Project ECHO investigates whether an AI-based agent can gradually improve its behavior through **traceable experience**, rather than a fixed fictional personality. Initial research directions:
 
@@ -72,6 +72,12 @@ print(memory.recall("演练", limit=2, max_chars=240))
 `reflections_for(experience_id)` 返回该经验所支持的现行反思。
 从包含 Phase 01 历史的仓库根目录运行 `python experiments/echo001/run.py` 即可复测。
 [技术对比](docs/ECHO-001-research.md) · [实验结果与局限](experiments/echo001/REPORT.md)
+
+## ECHO-002 经验驱动关系模型
+
+用固定的 120 条合成经验观察 10 位虚构人物的熟悉度、亲近度、领域可信度和模拟策略。
+在仓库根目录运行 `python -m experiments.echo002.run --output experiments/echo002/results` 可复现配对实验。
+[设计与可调参数](docs/ECHO-002-design.md) · [实验报告与曲线](experiments/echo002/REPORT.md) · [成长日志 003](journal/003-2026-11-10.md)
 
 ## Boundaries
 
