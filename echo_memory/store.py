@@ -76,6 +76,12 @@ def init(path: Path | str) -> None:
           reflection_id TEXT PRIMARY KEY REFERENCES memories(id) ON DELETE CASCADE,
           experience_id TEXT REFERENCES memories(id) ON DELETE SET NULL
         );
+        CREATE INDEX IF NOT EXISTS ix_reflection_experience ON reflection_sources(experience_id);
+        CREATE TABLE IF NOT EXISTS evidence (
+          memory_id TEXT PRIMARY KEY REFERENCES memories(id) ON DELETE CASCADE,
+          source_ref TEXT,
+          confidence REAL CHECK(confidence BETWEEN 0 AND 1)
+        );
         """)
 
 
@@ -109,7 +115,12 @@ def add(
     supersedes: str | None = None, occurred_at: str | None = None,
     memory_id: str | None = None,
     claim_key: str | None = None, experience_id: str | None = None,
+    source_ref: str | None = None, confidence: float | None = None,
 ) -> str:
+    if source_ref is not None and (not isinstance(source_ref, str) or not source_ref.strip()):
+        raise ValueError("source_ref must identify a source record")
+    if confidence is not None and (type(confidence) not in (int, float) or not 0 <= confidence <= 1):
+        raise ValueError("confidence must be between 0 and 1")
     init(path)
     record = _validated_record(kind=kind, content=content, importance=importance,
                               tags=tags, visibility=visibility, origin=origin,
@@ -132,6 +143,11 @@ def add(
                 if kind != "fact" or claim_key not in (None, prior[0]):
                     raise ValueError("A correction must preserve the fact key")
                 claim_key = prior[0]
+            if kind == "reflection" and experience_id is None:
+                evidence = con.execute("SELECT experience_id FROM reflection_sources WHERE reflection_id = ?",
+                                       (supersedes,)).fetchone()
+                if evidence:
+                    experience_id = evidence[0]
         if claim_key:
             active = con.execute("""SELECT m.id, m.content FROM claims c
                 JOIN memories m ON c.memory_id = m.id WHERE c.claim_key = ?
@@ -152,13 +168,16 @@ def add(
             con.execute("INSERT INTO claims VALUES (?, ?)", (record[0], claim_key))
         if experience_id is not None:
             con.execute("INSERT INTO reflection_sources VALUES (?, ?)", (record[0], experience_id))
+        if source_ref is not None or confidence is not None:
+            con.execute("INSERT INTO evidence VALUES (?, ?, ?)", (record[0], source_ref, confidence))
     return record[0]
 
 
 def get(path: Path | str, memory_id: str) -> dict | None:
     init(path)
     with connection(path) as con:
-        row = con.execute("""SELECT m.*, c.claim_key, r.experience_id FROM memories m
+        row = con.execute("""SELECT m.*, c.claim_key, r.experience_id, e.source_ref, e.confidence FROM memories m
+            LEFT JOIN evidence e ON e.memory_id = m.id
             LEFT JOIN claims c ON c.memory_id = m.id
             LEFT JOIN reflection_sources r ON r.reflection_id = m.id
             WHERE m.id = ?""", (memory_id,)).fetchone()
@@ -169,6 +188,17 @@ def _to_dict(row: sqlite3.Row) -> dict:
     item = dict(row)
     item["tags"] = json.loads(item["tags"])
     return item
+
+
+def reflections_for(path: Path | str, experience_id: str) -> list[dict]:
+    """Return current lessons explicitly linked to an experience, newest first."""
+    init(path)
+    with connection(path) as con:
+        rows = con.execute("""SELECT m.*, r.experience_id FROM reflection_sources r
+            JOIN memories m ON m.id = r.reflection_id WHERE r.experience_id = ?
+            AND NOT EXISTS (SELECT 1 FROM memories n WHERE n.supersedes = m.id)
+            ORDER BY m.occurred_at DESC, m.id DESC""", (experience_id,))
+        return [_to_dict(row) for row in rows]
 
 
 def search(path: Path | str, query: str, limit: int = 5, include_history: bool = False) -> list[dict]:

@@ -1,0 +1,22 @@
+{"id":"Q01","user":"A","query":"采样记录","intent":"三次风速观测","relevant":["a01","a02","a03"]}
+{"id":"Q02","user":"A","query":"夜间采样","intent":"夜间风速","relevant":["a03"]}
+{"id":"Q03","user":"A","query":"照明模式","intent":"当前照明设置","relevant":["a05"]}
+{"id":"Q04","user":"A","query":"常亮","intent":"是否仍有常亮设置","relevant":[]}
+{"id":"Q05","user":"A","query":"校准","intent":"寻找温箱校准事故","relevant":["a06"]}
+{"id":"Q06","user":"A","query":"温箱","intent":"查温箱相关记录","relevant":["a06","a07","a08"]}
+{"id":"Q07","user":"A","query":"备用滤芯","intent":"甲的备用滤芯标签","relevant":["a20"]}
+{"id":"Q08","user":"B","query":"备用滤芯","intent":"乙的备用滤芯标签","relevant":["b04"]}
+{"id":"Q09","user":"A","query":"档案盒","intent":"甲的档案盒位置","relevant":["a14"]}
+{"id":"Q10","user":"B","query":"档案盒","intent":"乙的档案盒位置","relevant":["b01"]}
+{"id":"Q11","user":"A","query":"雨量计","intent":"雨量计读数单位","relevant":["a16"]}
+{"id":"Q12","user":"A","query":"断电","intent":"停电处置决定（同义词）","relevant":["a13"]}
+{"id":"Q13","user":"A","query":"风有多大","intent":"查三次风速（自然问句）","relevant":["a01","a02","a03"]}
+{"id":"Q14","user":"B","query":"白松","intent":"乙是否有白松滤芯","relevant":[]}
+{"id":"Q15","user":"A","query":"紫色标旗","intent":"甲是否有紫色标旗","relevant":[]}
+{"id":"Q16","user":"A","query":"轨道舱","intent":"查不存在的部件","relevant":[]}
+{"id":"Q17","user":"B","query":"灰色阀门","intent":"乙的阀门颜色","relevant":["b06"]}
+{"id":"Q18","user":"A","query":"纸质清单","intent":"停电处置决定","relevant":["a13"]}
+{"id":"Q19","user":"A","query":"雨量计 毫米","intent":"两个非连续词定位雨量计单位","relevant":["a16"]}
+{"id":"Q20","user":"A","query":"温箱 校准","intent":"两个短词消除校准歧义","relevant":["a06"]}
+{"id":"Q21","user":"A","query":"冷却回路 灰色","intent":"甲是否采用灰色阀门","relevant":[]}
+{"id":"Q22","user":"B","query":"冷却回路 灰色","intent":"乙的回路及阀门颜色","relevant":["b06"]}

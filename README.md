@@ -63,6 +63,16 @@ print(memory.recall("演练", limit=2, max_chars=240))
 
 单值事实可传入稳定的 `claim_key`，例如 `reply.language`。同键异值写入会抛出 `store.MemoryConflict`，其中的 `memory_id` 指向现行记录。核实后再用 `supersedes=memory_id` 写入修订。CLI 支持 `add --claim-key` 和 `add --experience-id`。所有记忆操作均在本机完成。
 
+## ECHO-001 离线可靠性实验
+
+在独立测试库上用 `AgentMemory("data/demo.sqlite", use_fts=True)` 启用 FTS5 trigram。
+首次启用会在该文件内建立索引。普通构造方式继续使用原检索。调用
+`recall("雨量计 毫米", max_tokens=60)` 可限制估算上下文用量。
+`remember` 和 `reflect` 支持可选的 `source_ref` 和 `confidence`，
+`reflections_for(experience_id)` 返回该经验所支持的现行反思。
+从包含 Phase 01 历史的仓库根目录运行 `python experiments/echo001/run.py` 即可复测。
+[技术对比](docs/ECHO-001-research.md) · [实验结果与局限](experiments/echo001/REPORT.md)
+
 ## Boundaries
 
 No credentials, QQ chat logs, private conversations, API responses, personal profiles, or local memory databases belong in this public repository. **Public visibility does not imply consent to publish any private transcript.**

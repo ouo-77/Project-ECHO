@@ -1,0 +1,441 @@
+{
+  "baseline": {
+    "positive": 17,
+    "hits": 12,
+    "tp": 16,
+    "relevant": 23,
+    "returned": 18,
+    "exact": 16,
+    "tokens": 391,
+    "requests": 440,
+    "median_ms": 2.849,
+    "p95_ms": 3.429,
+    "rows": [
+      {
+        "id": "Q01",
+        "expected": [
+          "a01",
+          "a02",
+          "a03"
+        ],
+        "got": [
+          "a03",
+          "a01",
+          "a02"
+        ],
+        "tokens": 69
+      },
+      {
+        "id": "Q02",
+        "expected": [
+          "a03"
+        ],
+        "got": [
+          "a03"
+        ],
+        "tokens": 23
+      },
+      {
+        "id": "Q03",
+        "expected": [
+          "a05"
+        ],
+        "got": [
+          "a05"
+        ],
+        "tokens": 21
+      },
+      {
+        "id": "Q04",
+        "expected": [],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q05",
+        "expected": [
+          "a06"
+        ],
+        "got": [
+          "a11",
+          "a09",
+          "a06"
+        ],
+        "tokens": 64
+      },
+      {
+        "id": "Q06",
+        "expected": [
+          "a06",
+          "a07",
+          "a08"
+        ],
+        "got": [
+          "a08",
+          "a07",
+          "a06"
+        ],
+        "tokens": 67
+      },
+      {
+        "id": "Q07",
+        "expected": [
+          "a20"
+        ],
+        "got": [
+          "a20"
+        ],
+        "tokens": 21
+      },
+      {
+        "id": "Q08",
+        "expected": [
+          "b04"
+        ],
+        "got": [
+          "b04"
+        ],
+        "tokens": 21
+      },
+      {
+        "id": "Q09",
+        "expected": [
+          "a14"
+        ],
+        "got": [
+          "a14"
+        ],
+        "tokens": 20
+      },
+      {
+        "id": "Q10",
+        "expected": [
+          "b01"
+        ],
+        "got": [
+          "b01"
+        ],
+        "tokens": 20
+      },
+      {
+        "id": "Q11",
+        "expected": [
+          "a16"
+        ],
+        "got": [
+          "a16"
+        ],
+        "tokens": 22
+      },
+      {
+        "id": "Q12",
+        "expected": [
+          "a13"
+        ],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q13",
+        "expected": [
+          "a01",
+          "a02",
+          "a03"
+        ],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q14",
+        "expected": [],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q15",
+        "expected": [],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q16",
+        "expected": [],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q17",
+        "expected": [
+          "b06"
+        ],
+        "got": [
+          "b06"
+        ],
+        "tokens": 21
+      },
+      {
+        "id": "Q18",
+        "expected": [
+          "a13"
+        ],
+        "got": [
+          "a13"
+        ],
+        "tokens": 22
+      },
+      {
+        "id": "Q19",
+        "expected": [
+          "a16"
+        ],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q20",
+        "expected": [
+          "a06"
+        ],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q21",
+        "expected": [],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q22",
+        "expected": [
+          "b06"
+        ],
+        "got": [],
+        "tokens": 0
+      }
+    ]
+  },
+  "candidate": {
+    "positive": 17,
+    "hits": 15,
+    "tp": 19,
+    "relevant": 23,
+    "returned": 21,
+    "exact": 19,
+    "tokens": 436,
+    "requests": 440,
+    "median_ms": 1.357,
+    "p95_ms": 1.755,
+    "rows": [
+      {
+        "id": "Q01",
+        "expected": [
+          "a01",
+          "a02",
+          "a03"
+        ],
+        "got": [
+          "a03",
+          "a01",
+          "a02"
+        ],
+        "tokens": 60
+      },
+      {
+        "id": "Q02",
+        "expected": [
+          "a03"
+        ],
+        "got": [
+          "a03"
+        ],
+        "tokens": 23
+      },
+      {
+        "id": "Q03",
+        "expected": [
+          "a05"
+        ],
+        "got": [
+          "a05"
+        ],
+        "tokens": 21
+      },
+      {
+        "id": "Q04",
+        "expected": [],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q05",
+        "expected": [
+          "a06"
+        ],
+        "got": [
+          "a11",
+          "a09",
+          "a06"
+        ],
+        "tokens": 60
+      },
+      {
+        "id": "Q06",
+        "expected": [
+          "a06",
+          "a07",
+          "a08"
+        ],
+        "got": [
+          "a08",
+          "a07",
+          "a06"
+        ],
+        "tokens": 60
+      },
+      {
+        "id": "Q07",
+        "expected": [
+          "a20"
+        ],
+        "got": [
+          "a20"
+        ],
+        "tokens": 21
+      },
+      {
+        "id": "Q08",
+        "expected": [
+          "b04"
+        ],
+        "got": [
+          "b04"
+        ],
+        "tokens": 21
+      },
+      {
+        "id": "Q09",
+        "expected": [
+          "a14"
+        ],
+        "got": [
+          "a14"
+        ],
+        "tokens": 20
+      },
+      {
+        "id": "Q10",
+        "expected": [
+          "b01"
+        ],
+        "got": [
+          "b01"
+        ],
+        "tokens": 20
+      },
+      {
+        "id": "Q11",
+        "expected": [
+          "a16"
+        ],
+        "got": [
+          "a16"
+        ],
+        "tokens": 22
+      },
+      {
+        "id": "Q12",
+        "expected": [
+          "a13"
+        ],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q13",
+        "expected": [
+          "a01",
+          "a02",
+          "a03"
+        ],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q14",
+        "expected": [],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q15",
+        "expected": [],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q16",
+        "expected": [],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q17",
+        "expected": [
+          "b06"
+        ],
+        "got": [
+          "b06"
+        ],
+        "tokens": 21
+      },
+      {
+        "id": "Q18",
+        "expected": [
+          "a13"
+        ],
+        "got": [
+          "a13"
+        ],
+        "tokens": 22
+      },
+      {
+        "id": "Q19",
+        "expected": [
+          "a16"
+        ],
+        "got": [
+          "a16"
+        ],
+        "tokens": 22
+      },
+      {
+        "id": "Q20",
+        "expected": [
+          "a06"
+        ],
+        "got": [
+          "a06"
+        ],
+        "tokens": 22
+      },
+      {
+        "id": "Q21",
+        "expected": [],
+        "got": [],
+        "tokens": 0
+      },
+      {
+        "id": "Q22",
+        "expected": [
+          "b06"
+        ],
+        "got": [
+          "b06"
+        ],
+        "tokens": 21
+      }
+    ]
+  },
+  "environment": "Python 3.12.6, SQLite 3.45.3, Windows"
+}
