@@ -1,0 +1,938 @@
+{
+  "heldout_sha256": "56356556606d1a207d368bd8129771ce8b663d6773600721160b767974584c27",
+  "initial": {
+    "result": "evaluated",
+    "versions": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "updated": {
+    "result": "evaluated",
+    "versions": [
+      9,
+      10
+    ]
+  },
+  "duplicate": {
+    "result": "idle",
+    "versions": []
+  },
+  "total_tasks": 40,
+  "wrong_ids": {
+    "before": [
+      "T03",
+      "T05",
+      "T06",
+      "T07",
+      "T08",
+      "T12",
+      "T17",
+      "T18",
+      "T19",
+      "T23",
+      "T25",
+      "T26",
+      "T32",
+      "T37",
+      "T38"
+    ],
+    "reviewed": [
+      "T03",
+      "T12",
+      "T17",
+      "T18",
+      "T19",
+      "T23",
+      "T25",
+      "T26",
+      "T32",
+      "T37",
+      "T38"
+    ],
+    "disabled": [
+      "T03",
+      "T09",
+      "T10",
+      "T11",
+      "T17",
+      "T18",
+      "T19",
+      "T23",
+      "T25",
+      "T26",
+      "T29",
+      "T30",
+      "T31",
+      "T37",
+      "T38"
+    ]
+  },
+  "corrected_wrong": 4,
+  "newly_wrong": 0,
+  "blocked": 8,
+  "attempts": 8,
+  "trace": [
+    53,
+    53
+  ],
+  "impacts": [
+    {
+      "proof": "review-meter-cold-start-train-5",
+      "target": "meter-cold-start-train-5",
+      "version": 1,
+      "pending": "review:review-meter-cold-start-train-5"
+    },
+    {
+      "proof": "review-meter-warm-start-train-1",
+      "target": "meter-warm-start-train-1",
+      "version": 6,
+      "pending": "review:review-meter-warm-start-train-1"
+    },
+    {
+      "proof": "review-meter-warm-start-train-2",
+      "target": "meter-warm-start-train-2",
+      "version": 6,
+      "pending": "review:review-meter-warm-start-train-2"
+    },
+    {
+      "proof": "review-meter-warm-start-train-3",
+      "target": "meter-warm-start-train-3",
+      "version": 6,
+      "pending": "review:review-meter-warm-start-train-3"
+    },
+    {
+      "proof": "review-meter-warm-start-train-4",
+      "target": "meter-warm-start-train-4",
+      "version": 6,
+      "pending": "review:review-meter-warm-start-train-4"
+    },
+    {
+      "proof": "review-meter-warm-start-validation-1",
+      "target": "meter-warm-start-validation-1",
+      "version": 6,
+      "pending": "review:review-meter-warm-start-validation-1"
+    },
+    {
+      "proof": "review-meter-warm-start-validation-2",
+      "target": "meter-warm-start-validation-2",
+      "version": 6,
+      "pending": "review:review-meter-warm-start-validation-2"
+    },
+    {
+      "proof": "review-meter-warm-start-validation-3",
+      "target": "meter-warm-start-validation-3",
+      "version": 6,
+      "pending": "review:review-meter-warm-start-validation-3"
+    }
+  ],
+  "retrieval_ms": {
+    "n": 200,
+    "median": 1.3366,
+    "p95": 1.682
+  },
+  "rebuild_ms": 5.9675,
+  "context_tokens": 536,
+  "before": [
+    {
+      "id": "T01",
+      "action": "verify",
+      "version": 1,
+      "tokens": 27
+    },
+    {
+      "id": "T02",
+      "action": "verify",
+      "version": 1,
+      "tokens": 27
+    },
+    {
+      "id": "T03",
+      "action": "verify",
+      "version": 1,
+      "tokens": 27
+    },
+    {
+      "id": "T04",
+      "action": "verify",
+      "version": 1,
+      "tokens": 27
+    },
+    {
+      "id": "T05",
+      "action": "trial",
+      "version": 6,
+      "tokens": 27
+    },
+    {
+      "id": "T06",
+      "action": "trial",
+      "version": 6,
+      "tokens": 27
+    },
+    {
+      "id": "T07",
+      "action": "trial",
+      "version": 6,
+      "tokens": 27
+    },
+    {
+      "id": "T08",
+      "action": "trial",
+      "version": 6,
+      "tokens": 27
+    },
+    {
+      "id": "T09",
+      "action": "trial",
+      "version": 2,
+      "tokens": 26
+    },
+    {
+      "id": "T10",
+      "action": "trial",
+      "version": 2,
+      "tokens": 26
+    },
+    {
+      "id": "T11",
+      "action": "trial",
+      "version": 2,
+      "tokens": 26
+    },
+    {
+      "id": "T12",
+      "action": "trial",
+      "version": 2,
+      "tokens": 26
+    },
+    {
+      "id": "T13",
+      "action": "verify",
+      "version": 8,
+      "tokens": 26
+    },
+    {
+      "id": "T14",
+      "action": "verify",
+      "version": 8,
+      "tokens": 26
+    },
+    {
+      "id": "T15",
+      "action": "verify",
+      "version": 8,
+      "tokens": 26
+    },
+    {
+      "id": "T16",
+      "action": "verify",
+      "version": 8,
+      "tokens": 26
+    },
+    {
+      "id": "T17",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T18",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T19",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T20",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T21",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T22",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T23",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T24",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T25",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T26",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T27",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T28",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T29",
+      "action": "trial",
+      "version": 7,
+      "tokens": 27
+    },
+    {
+      "id": "T30",
+      "action": "trial",
+      "version": 7,
+      "tokens": 27
+    },
+    {
+      "id": "T31",
+      "action": "trial",
+      "version": 7,
+      "tokens": 27
+    },
+    {
+      "id": "T32",
+      "action": "trial",
+      "version": 7,
+      "tokens": 27
+    },
+    {
+      "id": "T33",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T34",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T35",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T36",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T37",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T38",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T39",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T40",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    }
+  ],
+  "reviewed": [
+    {
+      "id": "T01",
+      "action": "verify",
+      "version": 9,
+      "tokens": 27
+    },
+    {
+      "id": "T02",
+      "action": "verify",
+      "version": 9,
+      "tokens": 27
+    },
+    {
+      "id": "T03",
+      "action": "verify",
+      "version": 9,
+      "tokens": 27
+    },
+    {
+      "id": "T04",
+      "action": "verify",
+      "version": 9,
+      "tokens": 27
+    },
+    {
+      "id": "T05",
+      "action": "verify",
+      "version": 10,
+      "tokens": 28
+    },
+    {
+      "id": "T06",
+      "action": "verify",
+      "version": 10,
+      "tokens": 28
+    },
+    {
+      "id": "T07",
+      "action": "verify",
+      "version": 10,
+      "tokens": 28
+    },
+    {
+      "id": "T08",
+      "action": "verify",
+      "version": 10,
+      "tokens": 28
+    },
+    {
+      "id": "T09",
+      "action": "trial",
+      "version": 2,
+      "tokens": 26
+    },
+    {
+      "id": "T10",
+      "action": "trial",
+      "version": 2,
+      "tokens": 26
+    },
+    {
+      "id": "T11",
+      "action": "trial",
+      "version": 2,
+      "tokens": 26
+    },
+    {
+      "id": "T12",
+      "action": "trial",
+      "version": 2,
+      "tokens": 26
+    },
+    {
+      "id": "T13",
+      "action": "verify",
+      "version": 8,
+      "tokens": 26
+    },
+    {
+      "id": "T14",
+      "action": "verify",
+      "version": 8,
+      "tokens": 26
+    },
+    {
+      "id": "T15",
+      "action": "verify",
+      "version": 8,
+      "tokens": 26
+    },
+    {
+      "id": "T16",
+      "action": "verify",
+      "version": 8,
+      "tokens": 26
+    },
+    {
+      "id": "T17",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T18",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T19",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T20",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T21",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T22",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T23",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T24",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T25",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T26",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T27",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T28",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T29",
+      "action": "trial",
+      "version": 7,
+      "tokens": 27
+    },
+    {
+      "id": "T30",
+      "action": "trial",
+      "version": 7,
+      "tokens": 27
+    },
+    {
+      "id": "T31",
+      "action": "trial",
+      "version": 7,
+      "tokens": 27
+    },
+    {
+      "id": "T32",
+      "action": "trial",
+      "version": 7,
+      "tokens": 27
+    },
+    {
+      "id": "T33",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T34",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T35",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T36",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T37",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T38",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T39",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T40",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    }
+  ],
+  "disabled": [
+    {
+      "id": "T01",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T02",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T03",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T04",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T05",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T06",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T07",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T08",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T09",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T10",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T11",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T12",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T13",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T14",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T15",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T16",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T17",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T18",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T19",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T20",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T21",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T22",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T23",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T24",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T25",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T26",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T27",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T28",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T29",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T30",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T31",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T32",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T33",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T34",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T35",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T36",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T37",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T38",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T39",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    },
+    {
+      "id": "T40",
+      "action": "verify",
+      "version": null,
+      "tokens": 0
+    }
+  ],
+  "self_model": [
+    {
+      "feature": "cold-start",
+      "version": 9,
+      "validation": {
+        "train": 4,
+        "validation": 3,
+        "train_agree": 4,
+        "validation_agree": 3,
+        "counter": 0
+      },
+      "standing": "validated"
+    },
+    {
+      "feature": "dry-run",
+      "version": 2,
+      "validation": {
+        "train": 5,
+        "validation": 3,
+        "train_agree": 4,
+        "validation_agree": 3,
+        "counter": 1
+      },
+      "standing": "validated"
+    },
+    {
+      "feature": "edge-case",
+      "version": 3,
+      "validation": {
+        "train": 1,
+        "validation": 1,
+        "train_agree": 1,
+        "validation_agree": 0,
+        "counter": 1
+      },
+      "standing": "insufficient"
+    },
+    {
+      "feature": "mixed-check",
+      "version": 4,
+      "validation": {
+        "train": 4,
+        "validation": 3,
+        "train_agree": 4,
+        "validation_agree": 0,
+        "counter": 3
+      },
+      "standing": "contradicted"
+    },
+    {
+      "feature": "safety-lock",
+      "version": 5,
+      "validation": {
+        "train": 4,
+        "validation": 3,
+        "train_agree": 4,
+        "validation_agree": 3,
+        "counter": 0
+      },
+      "standing": "needs_human"
+    },
+    {
+      "feature": "warm-start",
+      "version": 10,
+      "validation": {
+        "train": 4,
+        "validation": 3,
+        "train_agree": 4,
+        "validation_agree": 3,
+        "counter": 0
+      },
+      "standing": "validated"
+    }
+  ]
+}

@@ -2,7 +2,9 @@
 
 > An experiment in persistent memory, self-reflection, and accountable autonomous learning.
 
-**Status:** ECHO-002 — offline research on persistent memory and experience-driven relationship judgments (2026-11-10).
+**Status:** ECHO-003 — offline experiments on evidence correction, time-dependent regulation and traceable reflection (2026-11-10).
+
+ECHO-003 在旧证据被推翻时重算关系状态，并暂时停用依赖它的经验建议。独立的 `echo_reflect` 模块支持每日、事件和周期反思。[技术设计](docs/ECHO-003-design.md) · [合成实验与复现命令](experiments/echo003/REPORT.md) · [成长日志 004](journal/004-2026-11-10.md)
 
 Project ECHO investigates whether an AI-based agent can gradually improve its behavior through **traceable experience**, rather than a fixed fictional personality. Initial research directions:
 

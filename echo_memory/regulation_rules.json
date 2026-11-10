@@ -1,0 +1,30 @@
+{
+  "half_life_days": {
+    "short": 1,
+    "mood": 7,
+    "tendency": 30
+  },
+  "baseline": {
+    "short": 0,
+    "mood": 0,
+    "tendency": 0
+  },
+  "gain": {
+    "short": 1,
+    "mood": 0.65,
+    "tendency": 0.35
+  },
+  "activation": {
+    "deception": 0.8,
+    "misunderstanding": 0.32,
+    "error": 0.22,
+    "criticism": 0.12
+  },
+  "loss": {
+    "none": 0,
+    "moderate": 0.25,
+    "severe": 0.5
+  },
+  "pace_threshold": 0.35,
+  "repairs_required": 2
+}

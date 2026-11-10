@@ -1,0 +1,8 @@
+{"target":"meter-cold-start-train-5","domain":"meter","finding":"wrong_asset","reason":"批号复核显示该读数来自另一工序。"}
+{"target":"meter-warm-start-train-1","domain":"meter","finding":"conversion_fault","reason":"独立复算确认参考表换算有误，原先的通过判定失效。"}
+{"target":"meter-warm-start-train-2","domain":"meter","finding":"conversion_fault","reason":"独立复算确认参考表换算有误，原先的通过判定失效。"}
+{"target":"meter-warm-start-train-3","domain":"meter","finding":"conversion_fault","reason":"独立复算确认参考表换算有误，原先的通过判定失效。"}
+{"target":"meter-warm-start-train-4","domain":"meter","finding":"conversion_fault","reason":"独立复算确认参考表换算有误，原先的通过判定失效。"}
+{"target":"meter-warm-start-validation-1","domain":"meter","finding":"conversion_fault","reason":"独立复算确认参考表换算有误，原先的通过判定失效。"}
+{"target":"meter-warm-start-validation-2","domain":"meter","finding":"conversion_fault","reason":"独立复算确认参考表换算有误，原先的通过判定失效。"}
+{"target":"meter-warm-start-validation-3","domain":"meter","finding":"conversion_fault","reason":"独立复算确认参考表换算有误，原先的通过判定失效。"}

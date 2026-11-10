@@ -1,0 +1,1375 @@
+{
+  "cases": {
+    "A": [
+      {
+        "at": "2026-01-01T00:00:00.000000+00:00",
+        "levels": {
+          "short": 0.8,
+          "mood": 0.52,
+          "tendency": 0.27999999999999997
+        },
+        "emotional_recovery": 0.19999999999999996,
+        "trust": 0.3333333333333333,
+        "trust_recovery": 0.0,
+        "trust_anchor": "ab-incident",
+        "basis": [
+          {
+            "id": "ab-incident",
+            "source_ref": "fixture:ab-incident",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "slow_review",
+        "relationship_closeness": 0.4,
+        "loss": 0,
+        "impulses": [
+          "ab-incident"
+        ],
+        "appraisals": [],
+        "changes": [],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      },
+      {
+        "at": "2026-01-08T00:00:00.000000+00:00",
+        "levels": {
+          "short": 0.00625,
+          "mood": 0.26,
+          "tendency": 0.2381868050662396
+        },
+        "emotional_recovery": 0.99375,
+        "trust": 0.3333333333333333,
+        "trust_recovery": 0.0,
+        "trust_anchor": "ab-incident",
+        "basis": [
+          {
+            "id": "ab-incident",
+            "source_ref": "fixture:ab-incident",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "normal",
+        "relationship_closeness": 0.4,
+        "loss": 0,
+        "impulses": [
+          "ab-incident"
+        ],
+        "appraisals": [],
+        "changes": [],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      },
+      {
+        "at": "2026-01-31T00:00:00.000000+00:00",
+        "levels": {
+          "short": 7.450580596923829e-10,
+          "mood": 0.026660899070248236,
+          "tendency": 0.13999999999999999
+        },
+        "emotional_recovery": 0.999999999254942,
+        "trust": 0.3333333333333333,
+        "trust_recovery": 0.0,
+        "trust_anchor": "ab-incident",
+        "basis": [
+          {
+            "id": "ab-incident",
+            "source_ref": "fixture:ab-incident",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "normal",
+        "relationship_closeness": 0.4,
+        "loss": 0,
+        "impulses": [
+          "ab-incident"
+        ],
+        "appraisals": [],
+        "changes": [],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      }
+    ],
+    "B": [
+      {
+        "at": "2026-01-01T00:00:00.000000+00:00",
+        "levels": {
+          "short": 0.8,
+          "mood": 0.52,
+          "tendency": 0.27999999999999997
+        },
+        "emotional_recovery": 0.19999999999999996,
+        "trust": 0.3333333333333333,
+        "trust_recovery": 0.0,
+        "trust_anchor": "ab-incident",
+        "basis": [
+          {
+            "id": "ab-incident",
+            "source_ref": "fixture:ab-incident",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "slow_review",
+        "relationship_closeness": 0.4,
+        "loss": 0,
+        "impulses": [
+          "ab-incident"
+        ],
+        "appraisals": [],
+        "changes": [],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      },
+      {
+        "at": "2026-01-31T00:00:00.000000+00:00",
+        "levels": {
+          "short": 7.450580596923829e-10,
+          "mood": 0.026660899070248236,
+          "tendency": 0.13999999999999999
+        },
+        "emotional_recovery": 0.999999999254942,
+        "trust": 0.3333333333333333,
+        "trust_recovery": 0.0,
+        "trust_anchor": "ab-incident",
+        "basis": [
+          {
+            "id": "ab-incident",
+            "source_ref": "fixture:ab-incident",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "normal",
+        "relationship_closeness": 0.4,
+        "loss": 0,
+        "impulses": [
+          "ab-incident"
+        ],
+        "appraisals": [],
+        "changes": [],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      }
+    ],
+    "C": [
+      {
+        "at": "2026-01-01T11:45:36.000000+00:00",
+        "levels": {
+          "short": 0.5696200782388287,
+          "mood": 0.49537175898284747,
+          "tendency": 0.27684788375315805
+        },
+        "emotional_recovery": 0.43037992176117135,
+        "trust": 0.3333333333333333,
+        "trust_recovery": 0.0,
+        "trust_anchor": "incident",
+        "basis": [
+          {
+            "id": "incident",
+            "source_ref": "fixture:incident",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "slow_review",
+        "relationship_closeness": 0.4,
+        "loss": 0,
+        "impulses": [
+          "incident"
+        ],
+        "appraisals": [],
+        "changes": [],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      },
+      {
+        "at": "2026-01-01T12:00:00.000000+00:00",
+        "levels": {
+          "short": 0.22627416997969524,
+          "mood": 0.1979525918262089,
+          "tendency": 0.11071357027952436
+        },
+        "emotional_recovery": 0.7737258300203047,
+        "trust": 0.5,
+        "trust_recovery": 0.16666666666666669,
+        "trust_anchor": "incident",
+        "basis": [],
+        "action": "verify",
+        "pace": "normal",
+        "relationship_closeness": 0.46,
+        "loss": 0,
+        "impulses": [
+          "incident"
+        ],
+        "appraisals": [
+          {
+            "target": "incident",
+            "original": "deception",
+            "effective": "misunderstanding",
+            "proof": "clarify"
+          }
+        ],
+        "changes": [],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      }
+    ],
+    "D": [
+      {
+        "at": "2026-01-01T11:45:36.000000+00:00",
+        "levels": {
+          "short": 0.7604024793588986,
+          "mood": 0.6517159300205017,
+          "tendency": 0.36356297053876496
+        },
+        "emotional_recovery": 0.2395975206411014,
+        "trust": 0.3333333333333333,
+        "trust_recovery": 0.0,
+        "trust_anchor": "incident",
+        "basis": [
+          {
+            "id": "incident",
+            "source_ref": "fixture:incident",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "slow_review",
+        "relationship_closeness": 0.15000000000000002,
+        "loss": 0.25,
+        "impulses": [
+          "incident",
+          "loss-proof"
+        ],
+        "appraisals": [],
+        "changes": [
+          {
+            "seq": 1,
+            "proof_id": "loss-proof",
+            "source_ref": "fixture:loss-proof",
+            "at": "2026-01-01T02:24:00.000000+00:00",
+            "domain": "meter",
+            "measure": "loss",
+            "value": "moderate",
+            "target": "incident",
+            "reason": "合成台账确认 loss / moderate",
+            "previous": null,
+            "confidence": 1.0
+          }
+        ],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      },
+      {
+        "at": "2026-01-01T12:00:00.000000+00:00",
+        "levels": {
+          "short": 0.415738740793495,
+          "mood": 0.354142025885647,
+          "tendency": 0.19740862394023193
+        },
+        "emotional_recovery": 0.5842612592065051,
+        "trust": 0.5,
+        "trust_recovery": 0.16666666666666669,
+        "trust_anchor": "incident",
+        "basis": [],
+        "action": "verify",
+        "pace": "slow_review",
+        "relationship_closeness": 0.21000000000000002,
+        "loss": 0.25,
+        "impulses": [
+          "incident",
+          "loss-proof"
+        ],
+        "appraisals": [
+          {
+            "target": "incident",
+            "original": "deception",
+            "effective": "misunderstanding",
+            "proof": "clarify"
+          }
+        ],
+        "changes": [
+          {
+            "seq": 1,
+            "proof_id": "loss-proof",
+            "source_ref": "fixture:loss-proof",
+            "at": "2026-01-01T02:24:00.000000+00:00",
+            "domain": "meter",
+            "measure": "loss",
+            "value": "moderate",
+            "target": "incident",
+            "reason": "合成台账确认 loss / moderate",
+            "previous": null,
+            "confidence": 1.0
+          }
+        ],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      }
+    ],
+    "E": [
+      {
+        "at": "2026-01-02T00:00:00.000000+00:00",
+        "levels": {
+          "short": 0.6679433656340733,
+          "mood": 0.7682657601089097,
+          "tendency": 0.44500334323930096
+        },
+        "emotional_recovery": 0.3320566343659267,
+        "trust": 0.3333333333333333,
+        "trust_recovery": 0.0,
+        "trust_anchor": "severe",
+        "basis": [
+          {
+            "id": "severe",
+            "source_ref": "fixture:severe",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "pause_interaction",
+        "pace": "slow_review",
+        "relationship_closeness": 0,
+        "loss": 0.5,
+        "impulses": [
+          "severe",
+          "severe-loss"
+        ],
+        "appraisals": [],
+        "changes": [
+          {
+            "seq": 1,
+            "proof_id": "severe-loss",
+            "source_ref": "fixture:severe-loss",
+            "at": "2026-01-01T02:24:00.000000+00:00",
+            "domain": "meter",
+            "measure": "loss",
+            "value": "severe",
+            "target": "severe",
+            "reason": "合成台账确认 loss / severe",
+            "previous": null,
+            "confidence": 1.0
+          },
+          {
+            "seq": 2,
+            "proof_id": "pause",
+            "source_ref": "fixture:pause",
+            "at": "2026-01-02T00:00:00.000000+00:00",
+            "domain": "meter",
+            "measure": "boundary",
+            "value": "paused",
+            "target": "",
+            "reason": "合成台账确认 boundary / paused",
+            "previous": null,
+            "confidence": 1.0
+          }
+        ],
+        "boundary": "paused",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      },
+      {
+        "at": "2026-03-02T00:00:00.000000+00:00",
+        "levels": {
+          "short": 1.1586970369883876e-18,
+          "mood": 0.00222976275793222,
+          "tendency": 0.11385120083059506
+        },
+        "emotional_recovery": 1.0,
+        "trust": 0.3333333333333333,
+        "trust_recovery": 0.0,
+        "trust_anchor": "severe",
+        "basis": [
+          {
+            "id": "severe",
+            "source_ref": "fixture:severe",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "pause_interaction",
+        "pace": "normal",
+        "relationship_closeness": 0,
+        "loss": 0.5,
+        "impulses": [
+          "severe",
+          "severe-loss"
+        ],
+        "appraisals": [],
+        "changes": [
+          {
+            "seq": 1,
+            "proof_id": "severe-loss",
+            "source_ref": "fixture:severe-loss",
+            "at": "2026-01-01T02:24:00.000000+00:00",
+            "domain": "meter",
+            "measure": "loss",
+            "value": "severe",
+            "target": "severe",
+            "reason": "合成台账确认 loss / severe",
+            "previous": null,
+            "confidence": 1.0
+          },
+          {
+            "seq": 2,
+            "proof_id": "pause",
+            "source_ref": "fixture:pause",
+            "at": "2026-01-02T00:00:00.000000+00:00",
+            "domain": "meter",
+            "measure": "boundary",
+            "value": "paused",
+            "target": "",
+            "reason": "合成台账确认 boundary / paused",
+            "previous": null,
+            "confidence": 1.0
+          },
+          {
+            "seq": 3,
+            "proof_id": "forgive",
+            "source_ref": "fixture:forgive",
+            "at": "2026-01-06T00:00:00.000000+00:00",
+            "domain": "meter",
+            "measure": "forgiveness",
+            "value": "forgiven",
+            "target": "",
+            "reason": "合成台账确认 forgiveness / forgiven",
+            "previous": null,
+            "confidence": 1.0
+          }
+        ],
+        "boundary": "paused",
+        "forgiveness": "forgiven",
+        "reconciliation": "undecided"
+      }
+    ],
+    "F": [
+      {
+        "at": "2026-01-01T00:00:00.000000+00:00",
+        "levels": {
+          "short": 0.8,
+          "mood": 0.52,
+          "tendency": 0.27999999999999997
+        },
+        "emotional_recovery": 0.19999999999999996,
+        "trust": 0.3333333333333333,
+        "trust_recovery": 0.0,
+        "trust_anchor": "harm",
+        "basis": [
+          {
+            "id": "harm",
+            "source_ref": "fixture:harm",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "slow_review",
+        "relationship_closeness": 0.4,
+        "loss": 0,
+        "impulses": [
+          "harm"
+        ],
+        "appraisals": [],
+        "changes": [],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      },
+      {
+        "at": "2026-01-11T00:00:00.000000+00:00",
+        "levels": {
+          "short": 0.00078125,
+          "mood": 0.1931792575878033,
+          "tendency": 0.22223614727554794
+        },
+        "emotional_recovery": 0.99921875,
+        "trust": 0.696886671712096,
+        "trust_recovery": 0.36355333837876264,
+        "trust_anchor": "harm",
+        "basis": [
+          {
+            "id": "harm",
+            "source_ref": "fixture:harm",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          },
+          {
+            "id": "repair-1",
+            "source_ref": "fixture:repair-1",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-2",
+            "source_ref": "fixture:repair-2",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-3",
+            "source_ref": "fixture:repair-3",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-4",
+            "source_ref": "fixture:repair-4",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-5",
+            "source_ref": "fixture:repair-5",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-6",
+            "source_ref": "fixture:repair-6",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-7",
+            "source_ref": "fixture:repair-7",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-8",
+            "source_ref": "fixture:repair-8",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-9",
+            "source_ref": "fixture:repair-9",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-10",
+            "source_ref": "fixture:repair-10",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "normal",
+        "relationship_closeness": 1.0,
+        "loss": 0,
+        "impulses": [
+          "harm"
+        ],
+        "appraisals": [],
+        "changes": [
+          {
+            "seq": 1,
+            "proof_id": "limit",
+            "source_ref": "fixture:limit",
+            "at": "2026-01-01T02:24:00.000000+00:00",
+            "domain": "meter",
+            "measure": "boundary",
+            "value": "limited",
+            "target": "",
+            "reason": "合成台账确认 boundary / limited",
+            "previous": null,
+            "confidence": 1.0
+          }
+        ],
+        "boundary": "limited",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      },
+      {
+        "at": "2026-01-12T00:00:00.000000+00:00",
+        "levels": {
+          "short": 0.000390625,
+          "mood": 0.17496702504220632,
+          "tendency": 0.21716026665672286
+        },
+        "emotional_recovery": 0.999609375,
+        "trust": 0.696886671712096,
+        "trust_recovery": 0.36355333837876264,
+        "trust_anchor": "harm",
+        "basis": [
+          {
+            "id": "harm",
+            "source_ref": "fixture:harm",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          },
+          {
+            "id": "repair-1",
+            "source_ref": "fixture:repair-1",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-2",
+            "source_ref": "fixture:repair-2",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-3",
+            "source_ref": "fixture:repair-3",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-4",
+            "source_ref": "fixture:repair-4",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-5",
+            "source_ref": "fixture:repair-5",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-6",
+            "source_ref": "fixture:repair-6",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-7",
+            "source_ref": "fixture:repair-7",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-8",
+            "source_ref": "fixture:repair-8",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-9",
+            "source_ref": "fixture:repair-9",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          },
+          {
+            "id": "repair-10",
+            "source_ref": "fixture:repair-10",
+            "kind": "repair",
+            "signal": 0.65,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "normal",
+        "relationship_closeness": 1.0,
+        "loss": 0,
+        "impulses": [
+          "harm"
+        ],
+        "appraisals": [],
+        "changes": [
+          {
+            "seq": 1,
+            "proof_id": "limit",
+            "source_ref": "fixture:limit",
+            "at": "2026-01-01T02:24:00.000000+00:00",
+            "domain": "meter",
+            "measure": "boundary",
+            "value": "limited",
+            "target": "",
+            "reason": "合成台账确认 boundary / limited",
+            "previous": null,
+            "confidence": 1.0
+          },
+          {
+            "seq": 2,
+            "proof_id": "agreement",
+            "source_ref": "fixture:agreement",
+            "at": "2026-01-12T00:00:00.000000+00:00",
+            "domain": "meter",
+            "measure": "reconciliation",
+            "value": "renewed",
+            "target": "",
+            "reason": "合成台账确认 reconciliation / renewed",
+            "previous": null,
+            "confidence": 1.0
+          }
+        ],
+        "boundary": "limited",
+        "forgiveness": "undecided",
+        "reconciliation": "renewed"
+      }
+    ],
+    "G": [
+      {
+        "at": "2026-01-14T00:00:00.000000+00:00",
+        "levels": {
+          "short": 9.765625e-05,
+          "mood": 0.1435316367775956,
+          "tendency": 0.20735365732011896
+        },
+        "emotional_recovery": 0.99990234375,
+        "trust": 0.3333333333333333,
+        "trust_recovery": 0.0,
+        "trust_anchor": "first",
+        "basis": [
+          {
+            "id": "first",
+            "source_ref": "fixture:first",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "normal",
+        "relationship_closeness": 0.4,
+        "loss": 0,
+        "impulses": [
+          "first"
+        ],
+        "appraisals": [],
+        "changes": [],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      },
+      {
+        "at": "2026-01-15T00:00:00.000000+00:00",
+        "levels": {
+          "short": 0.800048828125,
+          "mood": 0.65,
+          "tendency": 0.4826176932416529
+        },
+        "emotional_recovery": 0.199951171875,
+        "trust": 0.25510204081632654,
+        "trust_recovery": -0.07823129251700678,
+        "trust_anchor": "first",
+        "basis": [
+          {
+            "id": "first",
+            "source_ref": "fixture:first",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          },
+          {
+            "id": "similar",
+            "source_ref": "fixture:similar",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "slow_review",
+        "relationship_closeness": 0.30000000000000004,
+        "loss": 0,
+        "impulses": [
+          "first",
+          "similar"
+        ],
+        "appraisals": [],
+        "changes": [],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      }
+    ],
+    "H": [
+      {
+        "at": "2026-01-03T00:00:00.000000+00:00",
+        "levels": {
+          "short": 0.2,
+          "mood": 0.4265743851239718,
+          "tendency": 0.2673556490949166
+        },
+        "emotional_recovery": 0.8,
+        "trust": 0.3333333333333333,
+        "trust_recovery": 0.0,
+        "trust_anchor": "ab-incident",
+        "basis": [
+          {
+            "id": "ab-incident",
+            "source_ref": "fixture:ab-incident",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "normal",
+        "relationship_closeness": 0.4,
+        "loss": 0,
+        "impulses": [
+          "ab-incident"
+        ],
+        "appraisals": [],
+        "changes": [],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      },
+      {
+        "at": "2026-01-03T00:00:00.000000+00:00",
+        "levels": {
+          "short": 0.5656854249492381,
+          "mood": 0.4265743851239718,
+          "tendency": 0.2673556490949166
+        },
+        "emotional_recovery": 0.4343145750507619,
+        "trust": 0.3333333333333333,
+        "trust_recovery": 0.0,
+        "trust_anchor": "ab-incident",
+        "basis": [
+          {
+            "id": "ab-incident",
+            "source_ref": "fixture:ab-incident",
+            "kind": "deception",
+            "signal": -2.0,
+            "proof": null
+          }
+        ],
+        "action": "verify",
+        "pace": "slow_review",
+        "relationship_closeness": 0.4,
+        "loss": 0,
+        "impulses": [
+          "ab-incident"
+        ],
+        "appraisals": [],
+        "changes": [],
+        "boundary": "open",
+        "forgiveness": "undecided",
+        "reconciliation": "undecided"
+      }
+    ]
+  },
+  "reversal": {
+    "at": "2026-01-02T00:00:00.000000+00:00",
+    "levels": {
+      "short": 0.5339716828170367,
+      "mood": 0.6196210327630707,
+      "tendency": 0.3593040672004449
+    },
+    "emotional_recovery": 0.46602831718296334,
+    "trust": 0.3333333333333333,
+    "trust_recovery": 0.0,
+    "trust_anchor": "incident",
+    "basis": [
+      {
+        "id": "incident",
+        "source_ref": "fixture:incident",
+        "kind": "deception",
+        "signal": -2.0,
+        "proof": "reverse-review"
+      }
+    ],
+    "action": "verify",
+    "pace": "slow_review",
+    "relationship_closeness": 0.15000000000000002,
+    "loss": 0.25,
+    "impulses": [
+      "incident",
+      "loss-proof"
+    ],
+    "appraisals": [
+      {
+        "target": "incident",
+        "original": "deception",
+        "effective": "deception",
+        "proof": "reverse-review"
+      }
+    ],
+    "changes": [
+      {
+        "seq": 1,
+        "proof_id": "loss-proof",
+        "source_ref": "fixture:loss-proof",
+        "at": "2026-01-01T02:24:00.000000+00:00",
+        "domain": "meter",
+        "measure": "loss",
+        "value": "moderate",
+        "target": "incident",
+        "reason": "合成台账确认 loss / moderate",
+        "previous": null,
+        "confidence": 1.0
+      }
+    ],
+    "boundary": "open",
+    "forgiveness": "undecided",
+    "reconciliation": "undecided"
+  },
+  "inputs": {
+    "ab": [
+      {
+        "kind": "experience",
+        "tags": [
+          "person=ab",
+          "domain=meter",
+          "event=deception"
+        ],
+        "content": "合成演练事件 deception",
+        "memory_id": "ab-incident",
+        "source_ref": "fixture:ab-incident",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-01T00:00:00+00:00"
+      }
+    ],
+    "C": [
+      {
+        "kind": "experience",
+        "tags": [
+          "person=C",
+          "domain=meter",
+          "event=deception"
+        ],
+        "content": "合成演练事件 deception",
+        "memory_id": "incident",
+        "source_ref": "fixture:incident",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-01T00:00:00+00:00"
+      },
+      {
+        "kind": "fact",
+        "tags": [
+          "person=C",
+          "domain=meter",
+          "target=incident",
+          "finding=ambiguous_spec"
+        ],
+        "content": "复查两版任务书确认沟通口径不同。",
+        "memory_id": "clarify",
+        "source_ref": "fixture:clarify",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-01T12:00:00+00:00"
+      }
+    ],
+    "D": [
+      {
+        "kind": "experience",
+        "tags": [
+          "person=D",
+          "domain=meter",
+          "event=deception"
+        ],
+        "content": "合成演练事件 deception",
+        "memory_id": "incident",
+        "source_ref": "fixture:incident",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-01T00:00:00+00:00"
+      },
+      {
+        "kind": "fact",
+        "tags": [
+          "person=D",
+          "domain=meter",
+          "measure=loss",
+          "value=moderate",
+          "target=incident"
+        ],
+        "content": "合成台账确认 loss / moderate",
+        "memory_id": "loss-proof",
+        "source_ref": "fixture:loss-proof",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-01T02:24:00+00:00"
+      },
+      {
+        "kind": "fact",
+        "tags": [
+          "person=D",
+          "domain=meter",
+          "target=incident",
+          "finding=ambiguous_spec"
+        ],
+        "content": "复查两版任务书确认沟通口径不同。",
+        "memory_id": "clarify",
+        "source_ref": "fixture:clarify",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-01T12:00:00+00:00"
+      },
+      {
+        "kind": "fact",
+        "tags": [
+          "person=D",
+          "domain=meter",
+          "target=incident",
+          "finding=knowing_fabrication"
+        ],
+        "content": "独立复勘证实原始台账被知情篡改。",
+        "memory_id": "reverse-review",
+        "source_ref": "fixture:reverse-review",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-02T00:00:00+00:00"
+      }
+    ],
+    "e": [
+      {
+        "kind": "experience",
+        "tags": [
+          "person=e",
+          "domain=meter",
+          "event=deception"
+        ],
+        "content": "合成演练事件 deception",
+        "memory_id": "severe",
+        "source_ref": "fixture:severe",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-01T00:00:00+00:00"
+      },
+      {
+        "kind": "fact",
+        "tags": [
+          "person=e",
+          "domain=meter",
+          "measure=loss",
+          "value=severe",
+          "target=severe"
+        ],
+        "content": "合成台账确认 loss / severe",
+        "memory_id": "severe-loss",
+        "source_ref": "fixture:severe-loss",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-01T02:24:00+00:00"
+      },
+      {
+        "kind": "fact",
+        "tags": [
+          "person=e",
+          "domain=meter",
+          "measure=boundary",
+          "value=paused"
+        ],
+        "content": "合成台账确认 boundary / paused",
+        "memory_id": "pause",
+        "source_ref": "fixture:pause",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-02T00:00:00+00:00"
+      },
+      {
+        "kind": "fact",
+        "tags": [
+          "person=e",
+          "domain=meter",
+          "measure=forgiveness",
+          "value=forgiven"
+        ],
+        "content": "合成台账确认 forgiveness / forgiven",
+        "memory_id": "forgive",
+        "source_ref": "fixture:forgive",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-06T00:00:00+00:00"
+      }
+    ],
+    "f": [
+      {
+        "kind": "experience",
+        "tags": [
+          "person=f",
+          "domain=meter",
+          "event=deception"
+        ],
+        "content": "合成演练事件 deception",
+        "memory_id": "harm",
+        "source_ref": "fixture:harm",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-01T00:00:00+00:00"
+      },
+      {
+        "kind": "fact",
+        "tags": [
+          "person=f",
+          "domain=meter",
+          "measure=boundary",
+          "value=limited"
+        ],
+        "content": "合成台账确认 boundary / limited",
+        "memory_id": "limit",
+        "source_ref": "fixture:limit",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-01T02:24:00+00:00"
+      },
+      {
+        "kind": "experience",
+        "tags": [
+          "person=f",
+          "domain=meter",
+          "event=repair"
+        ],
+        "content": "合成演练事件 repair",
+        "memory_id": "repair-1",
+        "source_ref": "fixture:repair-1",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-02T00:00:00+00:00"
+      },
+      {
+        "kind": "experience",
+        "tags": [
+          "person=f",
+          "domain=meter",
+          "event=repair"
+        ],
+        "content": "合成演练事件 repair",
+        "memory_id": "repair-2",
+        "source_ref": "fixture:repair-2",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-03T00:00:00+00:00"
+      },
+      {
+        "kind": "experience",
+        "tags": [
+          "person=f",
+          "domain=meter",
+          "event=repair"
+        ],
+        "content": "合成演练事件 repair",
+        "memory_id": "repair-3",
+        "source_ref": "fixture:repair-3",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-04T00:00:00+00:00"
+      },
+      {
+        "kind": "experience",
+        "tags": [
+          "person=f",
+          "domain=meter",
+          "event=repair"
+        ],
+        "content": "合成演练事件 repair",
+        "memory_id": "repair-4",
+        "source_ref": "fixture:repair-4",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-05T00:00:00+00:00"
+      },
+      {
+        "kind": "experience",
+        "tags": [
+          "person=f",
+          "domain=meter",
+          "event=repair"
+        ],
+        "content": "合成演练事件 repair",
+        "memory_id": "repair-5",
+        "source_ref": "fixture:repair-5",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-06T00:00:00+00:00"
+      },
+      {
+        "kind": "experience",
+        "tags": [
+          "person=f",
+          "domain=meter",
+          "event=repair"
+        ],
+        "content": "合成演练事件 repair",
+        "memory_id": "repair-6",
+        "source_ref": "fixture:repair-6",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-07T00:00:00+00:00"
+      },
+      {
+        "kind": "experience",
+        "tags": [
+          "person=f",
+          "domain=meter",
+          "event=repair"
+        ],
+        "content": "合成演练事件 repair",
+        "memory_id": "repair-7",
+        "source_ref": "fixture:repair-7",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-08T00:00:00+00:00"
+      },
+      {
+        "kind": "experience",
+        "tags": [
+          "person=f",
+          "domain=meter",
+          "event=repair"
+        ],
+        "content": "合成演练事件 repair",
+        "memory_id": "repair-8",
+        "source_ref": "fixture:repair-8",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-09T00:00:00+00:00"
+      },
+      {
+        "kind": "experience",
+        "tags": [
+          "person=f",
+          "domain=meter",
+          "event=repair"
+        ],
+        "content": "合成演练事件 repair",
+        "memory_id": "repair-9",
+        "source_ref": "fixture:repair-9",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-10T00:00:00+00:00"
+      },
+      {
+        "kind": "experience",
+        "tags": [
+          "person=f",
+          "domain=meter",
+          "event=repair"
+        ],
+        "content": "合成演练事件 repair",
+        "memory_id": "repair-10",
+        "source_ref": "fixture:repair-10",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-11T00:00:00+00:00"
+      },
+      {
+        "kind": "fact",
+        "tags": [
+          "person=f",
+          "domain=meter",
+          "measure=reconciliation",
+          "value=renewed",
+          "consent=both"
+        ],
+        "content": "合成台账确认 reconciliation / renewed",
+        "memory_id": "agreement",
+        "source_ref": "fixture:agreement",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-12T00:00:00+00:00"
+      }
+    ],
+    "g": [
+      {
+        "kind": "experience",
+        "tags": [
+          "person=g",
+          "domain=meter",
+          "event=deception"
+        ],
+        "content": "合成演练事件 deception",
+        "memory_id": "first",
+        "source_ref": "fixture:first",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-01T00:00:00+00:00"
+      },
+      {
+        "kind": "experience",
+        "tags": [
+          "person=g",
+          "domain=other",
+          "event=error"
+        ],
+        "content": "合成演练事件 error",
+        "memory_id": "unrelated",
+        "source_ref": "fixture:unrelated",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-14T00:00:00+00:00"
+      },
+      {
+        "kind": "experience",
+        "tags": [
+          "person=g",
+          "domain=meter",
+          "event=deception"
+        ],
+        "content": "合成演练事件 deception",
+        "memory_id": "similar",
+        "source_ref": "fixture:similar",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-15T00:00:00+00:00"
+      }
+    ],
+    "slow": [
+      {
+        "kind": "experience",
+        "tags": [
+          "person=slow",
+          "domain=meter",
+          "event=deception"
+        ],
+        "content": "合成演练事件 deception",
+        "memory_id": "ab-incident",
+        "source_ref": "fixture:ab-incident",
+        "confidence": 1.0,
+        "origin": "synthetic-verifier",
+        "occurred_at": "2026-01-01T00:00:00+00:00"
+      }
+    ]
+  }
+}

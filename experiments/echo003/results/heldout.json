@@ -1,0 +1,2036 @@
+{
+  "summary": {
+    "metrics": {
+      "fixed": {
+        "positive": 159,
+        "correct": 139,
+        "overtrust": 7,
+        "suspicion": 142,
+        "negative": 129
+      },
+      "reviewed": {
+        "positive": 159,
+        "correct": 222,
+        "overtrust": 18,
+        "suspicion": 48,
+        "negative": 129
+      },
+      "no_memory": {
+        "positive": 159,
+        "correct": 129,
+        "overtrust": 0,
+        "suspicion": 159,
+        "negative": 129
+      }
+    },
+    "audits": 153,
+    "checks": {
+      "withdrawal_restored": 43,
+      "cross_domain_unchanged": 153,
+      "reconstructable": 153,
+      "withdrawals": 43,
+      "clean_state_matches": 48,
+      "mixed_basis": 66,
+      "checkpoints": 48
+    },
+    "stable_transitions": 42,
+    "stability": {
+      "fixed": {
+        "mean_absolute_drift": 0.045906395338918805,
+        "flips": 2
+      },
+      "reviewed": {
+        "mean_absolute_drift": 0.04992279563894609,
+        "flips": 4
+      }
+    }
+  },
+  "probes": [
+    {
+      "person": "sim-00",
+      "phase": 1,
+      "domain": "metrology",
+      "fixed": "trial",
+      "fixed_score": 0.7344443896809764,
+      "reviewed": "trial",
+      "reviewed_score": 0.6648793565683646,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-00",
+      "phase": 1,
+      "domain": "logistics",
+      "fixed": "trial",
+      "fixed_score": 0.711887299531183,
+      "reviewed": "trial",
+      "reviewed_score": 0.711887299531183,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-00",
+      "phase": 2,
+      "domain": "metrology",
+      "fixed": "trial",
+      "fixed_score": 0.6977574913319403,
+      "reviewed": "trial",
+      "reviewed_score": 0.6600247218201407,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-00",
+      "phase": 2,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.3640961529012906,
+      "reviewed": "verify",
+      "reviewed_score": 0.5856348311309381,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-00",
+      "phase": 3,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.5649866489556523,
+      "reviewed": "verify",
+      "reviewed_score": 0.6095595271654428,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-00",
+      "phase": 3,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.31346074610411695,
+      "reviewed": "verify",
+      "reviewed_score": 0.35138557542447124,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-00",
+      "phase": 4,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.5757251763400064,
+      "reviewed": "trial",
+      "reviewed_score": 0.7091298058541649,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-00",
+      "phase": 4,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.30679931917306624,
+      "reviewed": "verify",
+      "reviewed_score": 0.37368746799589436,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-00",
+      "phase": 5,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.5096450123255786,
+      "reviewed": "trial",
+      "reviewed_score": 0.7557638038329337,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-00",
+      "phase": 5,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.3521500295875122,
+      "reviewed": "verify",
+      "reviewed_score": 0.4006962234440985,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-00",
+      "phase": 6,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.4768139186782691,
+      "reviewed": "trial",
+      "reviewed_score": 0.7704763104330968,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-00",
+      "phase": 6,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.3175581006164232,
+      "reviewed": "verify",
+      "reviewed_score": 0.34487520307641945,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-01",
+      "phase": 1,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.2453169003719004,
+      "reviewed": "verify",
+      "reviewed_score": 0.278803153821276,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        false,
+        false
+      ],
+      "stable": false
+    },
+    {
+      "person": "sim-01",
+      "phase": 1,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.4227315170006127,
+      "reviewed": "trial",
+      "reviewed_score": 0.7304937871271758,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-01",
+      "phase": 2,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.15619511092876084,
+      "reviewed": "verify",
+      "reviewed_score": 0.18277529392047642,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": false
+    },
+    {
+      "person": "sim-01",
+      "phase": 2,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.519435555772932,
+      "reviewed": "trial",
+      "reviewed_score": 0.7974015659883206,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-01",
+      "phase": 3,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.26018125131194825,
+      "reviewed": "verify",
+      "reviewed_score": 0.22198847167563826,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": false
+    },
+    {
+      "person": "sim-01",
+      "phase": 3,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.5568299154389269,
+      "reviewed": "trial",
+      "reviewed_score": 0.8324163831679238,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-01",
+      "phase": 4,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.26447255439392775,
+      "reviewed": "verify",
+      "reviewed_score": 0.3684624014632235,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": false
+    },
+    {
+      "person": "sim-01",
+      "phase": 4,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.5798412163643347,
+      "reviewed": "trial",
+      "reviewed_score": 0.6825698399857173,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-01",
+      "phase": 5,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.3276471754779508,
+      "reviewed": "verify",
+      "reviewed_score": 0.4729391035848082,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        false
+      ],
+      "stable": false
+    },
+    {
+      "person": "sim-01",
+      "phase": 5,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.5939511296255704,
+      "reviewed": "trial",
+      "reviewed_score": 0.6622118076394166,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-01",
+      "phase": 6,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.2748932193101123,
+      "reviewed": "verify",
+      "reviewed_score": 0.5630472587526051,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        false
+      ],
+      "stable": false
+    },
+    {
+      "person": "sim-01",
+      "phase": 6,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.4715216972991346,
+      "reviewed": "verify",
+      "reviewed_score": 0.6365816932668831,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-02",
+      "phase": 1,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.30338889255072554,
+      "reviewed": "trial",
+      "reviewed_score": 0.6648793565683646,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-02",
+      "phase": 1,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.23254888084455805,
+      "reviewed": "verify",
+      "reviewed_score": 0.23254888084455805,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-02",
+      "phase": 2,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.36539433524114484,
+      "reviewed": "trial",
+      "reviewed_score": 0.7786135496394504,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-02",
+      "phase": 2,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.19305522800209649,
+      "reviewed": "verify",
+      "reviewed_score": 0.20182184972536701,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-02",
+      "phase": 3,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.48507767684047676,
+      "reviewed": "trial",
+      "reviewed_score": 0.8193901494424163,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-02",
+      "phase": 3,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.23209238425295928,
+      "reviewed": "verify",
+      "reviewed_score": 0.2382390509713184,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-02",
+      "phase": 4,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.3839090316367511,
+      "reviewed": "trial",
+      "reviewed_score": 0.8437742579382917,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-02",
+      "phase": 4,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.250426622046068,
+      "reviewed": "verify",
+      "reviewed_score": 0.33712625470270724,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-02",
+      "phase": 5,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.39949699873395034,
+      "reviewed": "trial",
+      "reviewed_score": 0.8584122340674474,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-02",
+      "phase": 5,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.2759160644333438,
+      "reviewed": "verify",
+      "reviewed_score": 0.35714377263524333,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-02",
+      "phase": 6,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.3842025187259168,
+      "reviewed": "trial",
+      "reviewed_score": 0.7866796462162244,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-02",
+      "phase": 6,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.3187919692916026,
+      "reviewed": "verify",
+      "reviewed_score": 0.40983098268687307,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-03",
+      "phase": 1,
+      "domain": "metrology",
+      "fixed": "trial",
+      "fixed_score": 0.6974171528164411,
+      "reviewed": "verify",
+      "reviewed_score": 0.471875,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": false
+    },
+    {
+      "person": "sim-03",
+      "phase": 1,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.4301961957137174,
+      "reviewed": "verify",
+      "reviewed_score": 0.553526057165346,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-03",
+      "phase": 2,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.5137734996272348,
+      "reviewed": "verify",
+      "reviewed_score": 0.2951402953272747,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        false
+      ],
+      "stable": false
+    },
+    {
+      "person": "sim-03",
+      "phase": 2,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.4005265644684657,
+      "reviewed": "verify",
+      "reviewed_score": 0.5942753451097912,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        false,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-03",
+      "phase": 3,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.4759743101676622,
+      "reviewed": "verify",
+      "reviewed_score": 0.3731999057833625,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        false
+      ],
+      "stable": false
+    },
+    {
+      "person": "sim-03",
+      "phase": 3,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.4712007830204763,
+      "reviewed": "trial",
+      "reviewed_score": 0.6978609643638112,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-03",
+      "phase": 4,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.5095321678528816,
+      "reviewed": "verify",
+      "reviewed_score": 0.41519123436134453,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        false
+      ],
+      "stable": false
+    },
+    {
+      "person": "sim-03",
+      "phase": 4,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.4573568545392546,
+      "reviewed": "trial",
+      "reviewed_score": 0.7647323281044283,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-03",
+      "phase": 5,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.428465773482623,
+      "reviewed": "verify",
+      "reviewed_score": 0.5062385823638501,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        true
+      ],
+      "stable": false
+    },
+    {
+      "person": "sim-03",
+      "phase": 5,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.3834774114163787,
+      "reviewed": "trial",
+      "reviewed_score": 0.7955812371660718,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-03",
+      "phase": 6,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.4530704425353835,
+      "reviewed": "verify",
+      "reviewed_score": 0.5805215666666933,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": false
+    },
+    {
+      "person": "sim-03",
+      "phase": 6,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.39076109445433166,
+      "reviewed": "trial",
+      "reviewed_score": 0.7215167314514503,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-04",
+      "phase": 1,
+      "domain": "metrology",
+      "fixed": "trial",
+      "fixed_score": 0.729822729127617,
+      "reviewed": "trial",
+      "reviewed_score": 0.729822729127617,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-04",
+      "phase": 1,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.41920553904312546,
+      "reviewed": "verify",
+      "reviewed_score": 0.35868130954731053,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-04",
+      "phase": 2,
+      "domain": "metrology",
+      "fixed": "trial",
+      "fixed_score": 0.6609047150222869,
+      "reviewed": "trial",
+      "reviewed_score": 0.794272179937549,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-04",
+      "phase": 2,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.3589203402144631,
+      "reviewed": "verify",
+      "reviewed_score": 0.24122904907312812,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-04",
+      "phase": 3,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.45999934301033557,
+      "reviewed": "trial",
+      "reviewed_score": 0.8338695723000156,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-04",
+      "phase": 3,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.3124203827489008,
+      "reviewed": "verify",
+      "reviewed_score": 0.28081005626067135,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-04",
+      "phase": 4,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.4443436968241945,
+      "reviewed": "trial",
+      "reviewed_score": 0.8459147243904351,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-04",
+      "phase": 4,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.2708179068629872,
+      "reviewed": "verify",
+      "reviewed_score": 0.2284947060611921,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-04",
+      "phase": 5,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.4947635265635679,
+      "reviewed": "trial",
+      "reviewed_score": 0.8595908322011293,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-04",
+      "phase": 5,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.2517354703885438,
+      "reviewed": "verify",
+      "reviewed_score": 0.24295422640368447,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-04",
+      "phase": 6,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.4712370230861419,
+      "reviewed": "trial",
+      "reviewed_score": 0.8661116734785319,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-04",
+      "phase": 6,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.19944842316400427,
+      "reviewed": "verify",
+      "reviewed_score": 0.21065603188892806,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-05",
+      "phase": 1,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.2413355703531801,
+      "reviewed": "verify",
+      "reviewed_score": 0.3032692424334324,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-05",
+      "phase": 1,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.4265185117799568,
+      "reviewed": "trial",
+      "reviewed_score": 0.7341326086993512,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        false,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-05",
+      "phase": 2,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.19031850484496343,
+      "reviewed": "verify",
+      "reviewed_score": 0.3032692424334324,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-05",
+      "phase": 2,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.2383363031587879,
+      "reviewed": "trial",
+      "reviewed_score": 0.6665028636250935,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-05",
+      "phase": 3,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.13790270652550346,
+      "reviewed": "verify",
+      "reviewed_score": 0.19825260899037733,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-05",
+      "phase": 3,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.3038829338203095,
+      "reviewed": "trial",
+      "reviewed_score": 0.7512021210223601,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-05",
+      "phase": 4,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.11375509862524498,
+      "reviewed": "verify",
+      "reviewed_score": 0.1660164166593434,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-05",
+      "phase": 4,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.2851763278935924,
+      "reviewed": "verify",
+      "reviewed_score": 0.6306563465211353,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-05",
+      "phase": 5,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.1652123004842337,
+      "reviewed": "verify",
+      "reviewed_score": 0.21716858200317812,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-05",
+      "phase": 5,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.36688810660925103,
+      "reviewed": "trial",
+      "reviewed_score": 0.7072243976695196,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-05",
+      "phase": 6,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.25834991201255864,
+      "reviewed": "verify",
+      "reviewed_score": 0.296823175232924,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-05",
+      "phase": 6,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.4394403125637136,
+      "reviewed": "trial",
+      "reviewed_score": 0.761020580999388,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-06",
+      "phase": 1,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.5484343902995311,
+      "reviewed": "trial",
+      "reviewed_score": 0.6508379888268156,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-06",
+      "phase": 1,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.3036119181371813,
+      "reviewed": "verify",
+      "reviewed_score": 0.45175438596491224,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-06",
+      "phase": 2,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.368012694416272,
+      "reviewed": "trial",
+      "reviewed_score": 0.7218582892460179,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-06",
+      "phase": 2,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.30531446823855707,
+      "reviewed": "verify",
+      "reviewed_score": 0.4601457047606314,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-06",
+      "phase": 3,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.29583114265076105,
+      "reviewed": "trial",
+      "reviewed_score": 0.797652215254368,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-06",
+      "phase": 3,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.3694297821303157,
+      "reviewed": "verify",
+      "reviewed_score": 0.4255351087451016,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-06",
+      "phase": 4,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.3291976678727187,
+      "reviewed": "trial",
+      "reviewed_score": 0.8193566406366406,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-06",
+      "phase": 4,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.31259483410136385,
+      "reviewed": "verify",
+      "reviewed_score": 0.3723149669048186,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-06",
+      "phase": 5,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.3052858841179611,
+      "reviewed": "trial",
+      "reviewed_score": 0.7493542142625542,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-06",
+      "phase": 5,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.24443721688254458,
+      "reviewed": "verify",
+      "reviewed_score": 0.30413045122583104,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-06",
+      "phase": 6,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.3856039932700951,
+      "reviewed": "trial",
+      "reviewed_score": 0.6978239640030871,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-06",
+      "phase": 6,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.2713082599167904,
+      "reviewed": "verify",
+      "reviewed_score": 0.3557368245673749,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-07",
+      "phase": 1,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.3863112930847817,
+      "reviewed": "verify",
+      "reviewed_score": 0.3863112930847817,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        false,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-07",
+      "phase": 1,
+      "domain": "logistics",
+      "fixed": "trial",
+      "fixed_score": 0.7448184675324167,
+      "reviewed": "trial",
+      "reviewed_score": 0.7448184675324167,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        false,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-07",
+      "phase": 2,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.31713512356499024,
+      "reviewed": "verify",
+      "reviewed_score": 0.31713512356499024,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-07",
+      "phase": 2,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.5457543879587711,
+      "reviewed": "verify",
+      "reviewed_score": 0.5891616326477086,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-07",
+      "phase": 3,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.2857091768102179,
+      "reviewed": "verify",
+      "reviewed_score": 0.3189211819659885,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-07",
+      "phase": 3,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.5727196127796976,
+      "reviewed": "trial",
+      "reviewed_score": 0.6910154023422079,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        false,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-07",
+      "phase": 4,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.276527311705928,
+      "reviewed": "verify",
+      "reviewed_score": 0.3860412945867176,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-07",
+      "phase": 4,
+      "domain": "logistics",
+      "fixed": "trial",
+      "fixed_score": 0.673171367520052,
+      "reviewed": "trial",
+      "reviewed_score": 0.7557240081818727,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-07",
+      "phase": 5,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.3351739624156877,
+      "reviewed": "verify",
+      "reviewed_score": 0.3351986486103319,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        false
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-07",
+      "phase": 5,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.5773641893607664,
+      "reviewed": "trial",
+      "reviewed_score": 0.7100356882338609,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-07",
+      "phase": 6,
+      "domain": "metrology",
+      "fixed": "verify",
+      "fixed_score": 0.30682693389406634,
+      "reviewed": "verify",
+      "reviewed_score": 0.26514276564657896,
+      "no_memory": "verify",
+      "passes": [
+        false,
+        false,
+        true
+      ],
+      "stable": true
+    },
+    {
+      "person": "sim-07",
+      "phase": 6,
+      "domain": "logistics",
+      "fixed": "verify",
+      "fixed_score": 0.4450392695100098,
+      "reviewed": "trial",
+      "reviewed_score": 0.6892246220073378,
+      "no_memory": "verify",
+      "passes": [
+        true,
+        true,
+        true
+      ],
+      "stable": true
+    }
+  ],
+  "review_examples": [
+    {
+      "target": "sim-00-4-0-0",
+      "original_source": "obs:sim-00-4-0-0",
+      "old_label": "deception",
+      "replacement": "advice",
+      "proof_id": "audit-sim-00-4-0-0",
+      "source_ref": "audit-sim-00-4-0-0",
+      "verifier": "synthetic-verifier",
+      "confidence": 0.95,
+      "at": "2026-01-04T00:07:00+00:00",
+      "reason": "独立复测确认原建议与参考结果相符。",
+      "finding": "replicated_result",
+      "previous": null,
+      "before": {
+        "domain": "metrology",
+        "score": 0.6038969136271931,
+        "action": "verify",
+        "basis": [
+          {
+            "id": "sim-00-1-0-3",
+            "source_ref": "obs:sim-00-1-0-3",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-1-0-0",
+            "source_ref": "obs:sim-00-1-0-0",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-1",
+            "source_ref": "obs:sim-00-2-0-1",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-0",
+            "source_ref": "obs:sim-00-2-0-0",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-2",
+            "source_ref": "obs:sim-00-2-0-2",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-3",
+            "source_ref": "obs:sim-00-2-0-3",
+            "kind": "error",
+            "signal": -1.0499999999999998,
+            "proof": null
+          },
+          {
+            "id": "sim-00-3-0-3",
+            "source_ref": "obs:sim-00-3-0-3",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-3-0-2",
+            "source_ref": "obs:sim-00-3-0-2",
+            "kind": "error",
+            "signal": -1.19,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-1",
+            "source_ref": "obs:sim-00-4-0-1",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-2",
+            "source_ref": "obs:sim-00-4-0-2",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-3",
+            "source_ref": "obs:sim-00-4-0-3",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-0",
+            "source_ref": "obs:sim-00-4-0-0",
+            "kind": "deception",
+            "signal": -1.5,
+            "proof": null
+          }
+        ]
+      },
+      "after": {
+        "domain": "metrology",
+        "score": 0.7091298058541649,
+        "action": "trial",
+        "basis": [
+          {
+            "id": "sim-00-1-0-3",
+            "source_ref": "obs:sim-00-1-0-3",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-1-0-0",
+            "source_ref": "obs:sim-00-1-0-0",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-1",
+            "source_ref": "obs:sim-00-2-0-1",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-0",
+            "source_ref": "obs:sim-00-2-0-0",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-2",
+            "source_ref": "obs:sim-00-2-0-2",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-3",
+            "source_ref": "obs:sim-00-2-0-3",
+            "kind": "error",
+            "signal": -1.0499999999999998,
+            "proof": null
+          },
+          {
+            "id": "sim-00-3-0-3",
+            "source_ref": "obs:sim-00-3-0-3",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-3-0-2",
+            "source_ref": "obs:sim-00-3-0-2",
+            "kind": "error",
+            "signal": -1.19,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-1",
+            "source_ref": "obs:sim-00-4-0-1",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-2",
+            "source_ref": "obs:sim-00-4-0-2",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-3",
+            "source_ref": "obs:sim-00-4-0-3",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-0",
+            "source_ref": "obs:sim-00-4-0-0",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": "audit-sim-00-4-0-0"
+          }
+        ]
+      }
+    },
+    {
+      "target": "sim-00-5-0-0",
+      "original_source": "obs:sim-00-5-0-0",
+      "old_label": "deception",
+      "replacement": "advice",
+      "proof_id": "audit-sim-00-5-0-0",
+      "source_ref": "audit-sim-00-5-0-0",
+      "verifier": "synthetic-verifier",
+      "confidence": 0.95,
+      "at": "2026-01-05T00:07:00+00:00",
+      "reason": "独立复测确认原建议与参考结果相符。",
+      "finding": "replicated_result",
+      "previous": null,
+      "before": {
+        "domain": "metrology",
+        "score": 0.5805920800018999,
+        "action": "verify",
+        "basis": [
+          {
+            "id": "sim-00-1-0-3",
+            "source_ref": "obs:sim-00-1-0-3",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-1-0-0",
+            "source_ref": "obs:sim-00-1-0-0",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-1",
+            "source_ref": "obs:sim-00-2-0-1",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-0",
+            "source_ref": "obs:sim-00-2-0-0",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-2",
+            "source_ref": "obs:sim-00-2-0-2",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-3",
+            "source_ref": "obs:sim-00-2-0-3",
+            "kind": "error",
+            "signal": -1.0499999999999998,
+            "proof": null
+          },
+          {
+            "id": "sim-00-3-0-3",
+            "source_ref": "obs:sim-00-3-0-3",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-3-0-2",
+            "source_ref": "obs:sim-00-3-0-2",
+            "kind": "error",
+            "signal": -1.19,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-1",
+            "source_ref": "obs:sim-00-4-0-1",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-2",
+            "source_ref": "obs:sim-00-4-0-2",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-3",
+            "source_ref": "obs:sim-00-4-0-3",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-0",
+            "source_ref": "obs:sim-00-4-0-0",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": "audit-sim-00-4-0-0"
+          },
+          {
+            "id": "sim-00-5-0-1",
+            "source_ref": "obs:sim-00-5-0-1",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-5-0-0",
+            "source_ref": "obs:sim-00-5-0-0",
+            "kind": "deception",
+            "signal": -1.9,
+            "proof": null
+          },
+          {
+            "id": "sim-00-5-0-3",
+            "source_ref": "obs:sim-00-5-0-3",
+            "kind": "deception",
+            "signal": -1.5,
+            "proof": null
+          },
+          {
+            "id": "sim-00-5-0-2",
+            "source_ref": "obs:sim-00-5-0-2",
+            "kind": "advice",
+            "signal": 1.02,
+            "proof": null
+          }
+        ]
+      },
+      "after": {
+        "domain": "metrology",
+        "score": 0.6776193502489115,
+        "action": "trial",
+        "basis": [
+          {
+            "id": "sim-00-1-0-3",
+            "source_ref": "obs:sim-00-1-0-3",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-1-0-0",
+            "source_ref": "obs:sim-00-1-0-0",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-1",
+            "source_ref": "obs:sim-00-2-0-1",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-0",
+            "source_ref": "obs:sim-00-2-0-0",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-2",
+            "source_ref": "obs:sim-00-2-0-2",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-2-0-3",
+            "source_ref": "obs:sim-00-2-0-3",
+            "kind": "error",
+            "signal": -1.0499999999999998,
+            "proof": null
+          },
+          {
+            "id": "sim-00-3-0-3",
+            "source_ref": "obs:sim-00-3-0-3",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-3-0-2",
+            "source_ref": "obs:sim-00-3-0-2",
+            "kind": "error",
+            "signal": -1.19,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-1",
+            "source_ref": "obs:sim-00-4-0-1",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-2",
+            "source_ref": "obs:sim-00-4-0-2",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-3",
+            "source_ref": "obs:sim-00-4-0-3",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-4-0-0",
+            "source_ref": "obs:sim-00-4-0-0",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": "audit-sim-00-4-0-0"
+          },
+          {
+            "id": "sim-00-5-0-1",
+            "source_ref": "obs:sim-00-5-0-1",
+            "kind": "advice",
+            "signal": 0.8999999999999999,
+            "proof": null
+          },
+          {
+            "id": "sim-00-5-0-0",
+            "source_ref": "obs:sim-00-5-0-0",
+            "kind": "advice",
+            "signal": 1.14,
+            "proof": "audit-sim-00-5-0-0"
+          },
+          {
+            "id": "sim-00-5-0-3",
+            "source_ref": "obs:sim-00-5-0-3",
+            "kind": "deception",
+            "signal": -1.5,
+            "proof": null
+          },
+          {
+            "id": "sim-00-5-0-2",
+            "source_ref": "obs:sim-00-5-0-2",
+            "kind": "advice",
+            "signal": 1.02,
+            "proof": null
+          }
+        ]
+      }
+    }
+  ]
+}
