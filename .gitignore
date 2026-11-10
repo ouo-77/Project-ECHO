@@ -1,0 +1,32 @@
+# Secrets and personal data (never publish)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*token*
+*secret*
+**/.openclaw/
+**/sessions/
+**/chat_logs/
+**/private/
+
+# Local long-term memory and runtime output
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+*.bak
+*.zip
+*.sqlite3
+*.sqlite3-*
+.ruff_cache/
+/data/*
+!/data/seed_memories.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
