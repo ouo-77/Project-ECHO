@@ -1,0 +1,18 @@
+{"kind":"exact","text":"关键词=蓝芯刻度","domain":"met","gold":["m001"]}
+{"kind":"date","text":"2026-01-03 至 2026-01-04","domain":"met","gold":["m002","m003"]}
+{"kind":"entity","text":"人物=桐舟 项目=赤塔","domain":"met","gold":["m004"]}
+{"kind":"synonym","text":"类似 关键词=卸压","domain":"met","gold":["m005"]}
+{"kind":"linked","text":"依据链 起点=m006","domain":"met","gold":["m006","m007","m008"]}
+{"kind":"expired","text":"关键词=操作章程","domain":"met","gold":["m010"]}
+{"kind":"withdrawn","text":"关键词=虹片读数","domain":"met","gold":[]}
+{"kind":"interference","text":"项目=西站 关键词=相位校核","domain":"met","gold":["m013"]}
+{"kind":"absent","text":"关键词=火星雨痕","domain":"met","gold":[]}
+{"kind":"greeting","text":"你好","domain":"met","gold":[]}
+{"kind":"alias_noise","text":"关键词=暖机","domain":"met","gold":["m014"]}
+{"kind":"current_review","text":"关键词=重审结论","domain":"met","gold":["proof12"]}
+{"kind":"conditions","text":"关键词=限定样品","domain":"met","gold":[]}
+{"kind":"cross_domain","text":"关键词=蓝芯刻度","domain":"other","gold":[]}
+{"kind":"tentative","text":"关键词=实验猜测","domain":"met","gold":[]}
+{"kind":"ambiguous","text":"类似 关键词=泄压","domain":"met","gold":["m005"]}
+{"kind":"unseen_paraphrase","text":"怎样让冷轴承在起动前升温？","domain":"met","gold":["m014"]}
+{"kind":"natural_time","text":"2026-01-03发生了什么？","domain":"met","gold":["m002"]}

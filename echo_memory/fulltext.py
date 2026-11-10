@@ -22,6 +22,12 @@ def enable(path):
 
 def search(path, query, limit):
     """AND across literal whitespace-separated terms. Short terms use a substring filter."""
+    with store.connection(path) as con:
+        return search_on(con, query, limit)
+
+
+def search_on(con, query, limit):
+    """Use the caller's read snapshot and optional SQLite deadline."""
     if not 1 <= limit <= 100:
         raise ValueError("limit must be between 1 and 100")
     terms = query.split()
@@ -42,5 +48,4 @@ def search(path, query, limit):
             clauses.append("instr(lower(m.content), lower(?)) > 0")
             params.append(term)
     sql = f"SELECT m.* FROM {source} WHERE {' AND '.join(clauses)} ORDER BY {order} LIMIT ?"
-    with store.connection(path) as con:
-        return [store._to_dict(row) for row in con.execute(sql, (*params, limit))]
+    return [store._to_dict(row) for row in con.execute(sql, (*params, limit))]

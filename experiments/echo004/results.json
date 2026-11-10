@@ -1,0 +1,6401 @@
+[
+ {
+  "size": 100,
+  "index": {
+   "fts_ms": 8.713999995961785,
+   "copy_and_atlas_ms": 44.628700001339894,
+   "fts_bytes": 151552,
+   "atlas_bytes": 253952,
+   "fts_update_ms": 4.703099999460392,
+   "atlas_update_ms": 6.05159999395255,
+   "calibrated_bytes": 258048
+  },
+  "metrics": {
+   "A": {
+    "recall": 0.3333333333333333,
+    "mrr": 0.3333333333333333,
+    "exact": 0.5,
+    "false_return": 0.2,
+    "p50": 5.064499997388339,
+    "p95": 7.351500004006084,
+    "attempts": 1,
+    "tokens": 3.1666666666666665,
+    "api_tokens": 0,
+    "deadlines": 0,
+    "responses": [
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     }
+    ]
+   },
+   "B": {
+    "recall": 0.8333333333333334,
+    "mrr": 0.8333333333333334,
+    "exact": 0.8888888888888888,
+    "false_return": 0.07142857142857142,
+    "p50": 5.0375000027997885,
+    "p95": 6.7523999969125725,
+    "attempts": 1.2777777777777777,
+    "tokens": 7.666666666666667,
+    "api_tokens": 0,
+    "deadlines": 0,
+    "responses": [
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     }
+    ]
+   },
+   "C": {
+    "recall": 0.9166666666666666,
+    "mrr": 0.9166666666666666,
+    "exact": 0.9444444444444444,
+    "false_return": 0.0,
+    "p50": 5.5461999982071575,
+    "p95": 7.599699994898401,
+    "attempts": 1.4444444444444444,
+    "tokens": 7.611111111111111,
+    "api_tokens": 0,
+    "deadlines": 0,
+    "responses": [
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m014"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m014"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m014"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     }
+    ]
+   }
+  },
+  "db_with_audit": 405504
+ },
+ {
+  "size": 1000,
+  "index": {
+   "fts_ms": 9.233400000084657,
+   "copy_and_atlas_ms": 60.77969999751076,
+   "fts_bytes": 446464,
+   "atlas_bytes": 958464,
+   "fts_update_ms": 5.3006000016466714,
+   "atlas_update_ms": 5.801699997391552,
+   "calibrated_bytes": 958464
+  },
+  "metrics": {
+   "A": {
+    "recall": 0.3333333333333333,
+    "mrr": 0.3333333333333333,
+    "exact": 0.5,
+    "false_return": 0.2,
+    "p50": 4.840199999307515,
+    "p95": 7.569000001240056,
+    "attempts": 1,
+    "tokens": 3.1666666666666665,
+    "api_tokens": 0,
+    "deadlines": 0,
+    "responses": [
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     }
+    ]
+   },
+   "B": {
+    "recall": 0.8333333333333334,
+    "mrr": 0.8333333333333334,
+    "exact": 0.8888888888888888,
+    "false_return": 0.07142857142857142,
+    "p50": 4.957250002917135,
+    "p95": 7.24209999316372,
+    "attempts": 1.2777777777777777,
+    "tokens": 7.666666666666667,
+    "api_tokens": 0,
+    "deadlines": 0,
+    "responses": [
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     }
+    ]
+   },
+   "C": {
+    "recall": 0.9166666666666666,
+    "mrr": 0.9166666666666666,
+    "exact": 0.9444444444444444,
+    "false_return": 0.0,
+    "p50": 5.091449998872122,
+    "p95": 6.605200003832579,
+    "attempts": 1.4444444444444444,
+    "tokens": 7.611111111111111,
+    "api_tokens": 0,
+    "deadlines": 0,
+    "responses": [
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m014"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m014"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m014"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     }
+    ]
+   }
+  },
+  "db_with_audit": 1105920
+ },
+ {
+  "size": 10000,
+  "index": {
+   "fts_ms": 23.97439999913331,
+   "copy_and_atlas_ms": 285.70030000264524,
+   "fts_bytes": 3272704,
+   "atlas_bytes": 8036352,
+   "fts_update_ms": 8.76810000045225,
+   "atlas_update_ms": 8.935299993027002,
+   "calibrated_bytes": 8036352
+  },
+  "metrics": {
+   "A": {
+    "recall": 0.3333333333333333,
+    "mrr": 0.3333333333333333,
+    "exact": 0.5,
+    "false_return": 0.2,
+    "p50": 5.687199998646975,
+    "p95": 22.236299999349285,
+    "attempts": 1,
+    "tokens": 3.1666666666666665,
+    "api_tokens": 0,
+    "deadlines": 0,
+    "responses": [
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical"
+      ]
+     }
+    ]
+   },
+   "B": {
+    "recall": 0.8333333333333334,
+    "mrr": 0.8333333333333334,
+    "exact": 0.8888888888888888,
+    "false_return": 0.07142857142857142,
+    "p50": 5.4287500024656765,
+    "p95": 8.077600003161933,
+    "attempts": 1.2777777777777777,
+    "tokens": 7.666666666666667,
+    "api_tokens": 0,
+    "deadlines": 0,
+    "responses": [
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m015"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "lexical",
+       "alias"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     }
+    ]
+   },
+   "C": {
+    "recall": 0.9166666666666666,
+    "mrr": 0.9166666666666666,
+    "exact": 0.9444444444444444,
+    "false_return": 0.0,
+    "p50": 5.12805000107619,
+    "p95": 6.762800003343727,
+    "attempts": 1.4444444444444444,
+    "tokens": 7.611111111111111,
+    "api_tokens": 0,
+    "deadlines": 0,
+    "responses": [
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m014"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m014"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "exact",
+      "ids": [
+       "m001"
+      ],
+      "gold": [
+       "m001"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "date",
+      "ids": [
+       "m002",
+       "m003"
+      ],
+      "gold": [
+       "m002",
+       "m003"
+      ],
+      "tokens": 14,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     },
+     {
+      "case": "entity",
+      "ids": [
+       "m004"
+      ],
+      "gold": [
+       "m004"
+      ],
+      "tokens": 9,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "synonym",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "linked",
+      "ids": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "gold": [
+       "m006",
+       "m007",
+       "m008"
+      ],
+      "tokens": 31,
+      "status": "evidence",
+      "routes": [
+       "graph"
+      ]
+     },
+     {
+      "case": "expired",
+      "ids": [
+       "m010"
+      ],
+      "gold": [
+       "m010"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "withdrawn",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "interference",
+      "ids": [
+       "m013"
+      ],
+      "gold": [
+       "m013"
+      ],
+      "tokens": 12,
+      "status": "evidence",
+      "routes": [
+       "facets"
+      ]
+     },
+     {
+      "case": "absent",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "greeting",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "no_retrieval",
+      "routes": []
+     },
+     {
+      "case": "alias_noise",
+      "ids": [
+       "m014"
+      ],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "current_review",
+      "ids": [
+       "proof12"
+      ],
+      "gold": [
+       "proof12"
+      ],
+      "tokens": 11,
+      "status": "evidence",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "conditions",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "cross_domain",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "tentative",
+      "ids": [],
+      "gold": [],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "ambiguous",
+      "ids": [
+       "m005"
+      ],
+      "gold": [
+       "m005"
+      ],
+      "tokens": 10,
+      "status": "evidence",
+      "routes": [
+       "alias"
+      ]
+     },
+     {
+      "case": "unseen_paraphrase",
+      "ids": [],
+      "gold": [
+       "m014"
+      ],
+      "tokens": 0,
+      "status": "insufficient",
+      "routes": [
+       "alias",
+       "lexical"
+      ]
+     },
+     {
+      "case": "natural_time",
+      "ids": [
+       "m002"
+      ],
+      "gold": [
+       "m002"
+      ],
+      "tokens": 7,
+      "status": "evidence",
+      "routes": [
+       "time"
+      ]
+     }
+    ]
+   }
+  },
+  "db_with_audit": 8183808
+ }
+]

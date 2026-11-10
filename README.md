@@ -2,7 +2,9 @@
 
 > An experiment in persistent memory, self-reflection, and accountable autonomous learning.
 
-**Status:** ECHO-003 — offline experiments on evidence correction, time-dependent regulation and traceable reflection (2026-11-10).
+**Status:** ECHO-004 — offline experiments on planning and adapting retrieval over authorized memories (2026-11-10).
+
+ECHO-004 在独立 SQLite 快照上比较固定全文检索、多维索引和经反馈调整的检索路线。[认知蓝图](docs/COGNITIVE_ARCHITECTURE_V1.md) · [Atlas 与 Navigator 设计](docs/ECHO-004-design.md) · [实验与复现](experiments/echo004/REPORT.md)
 
 ECHO-003 在旧证据被推翻时重算关系状态，并暂时停用依赖它的经验建议。独立的 `echo_reflect` 模块支持每日、事件和周期反思。[技术设计](docs/ECHO-003-design.md) · [合成实验与复现命令](experiments/echo003/REPORT.md) · [成长日志 004](journal/004-2026-11-10.md)
 
