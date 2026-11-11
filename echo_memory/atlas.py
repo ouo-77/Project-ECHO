@@ -71,6 +71,25 @@ class Atlas:
             if not row or row[0] != owner:
                 raise PermissionError("Owner mismatch")
             self.owner, self.verifier = row
+            # Upgrade old working copies once, under the same write lock as deletion.
+            if not con.execute(
+                "SELECT 1 FROM sqlite_master WHERE type='trigger' AND name='atlas_unlink'"
+            ).fetchone():
+                con.execute("BEGIN IMMEDIATE")
+                con.execute("""UPDATE atlas_items SET live=0 WHERE id IN
+                    (SELECT src FROM atlas_edges WHERE kind IN ('supports','derived_from')
+                     AND NOT EXISTS(SELECT 1 FROM atlas_items a WHERE a.id=dst))""")
+                con.execute(
+                    "DELETE FROM atlas_edges WHERE NOT EXISTS(SELECT 1 FROM atlas_items a WHERE a.id=dst)"
+                )
+                con.execute(
+                    "CREATE INDEX IF NOT EXISTS atlas_edge_target ON atlas_edges(dst,kind)"
+                )
+                con.execute("""CREATE TRIGGER IF NOT EXISTS atlas_unlink BEFORE DELETE ON atlas_items BEGIN
+                    UPDATE atlas_items SET live=0 WHERE id IN (SELECT src FROM atlas_edges WHERE dst=OLD.id
+                        AND kind IN ('supports','derived_from'));
+                    DELETE FROM atlas_edges WHERE dst=OLD.id;
+                END""")
 
     def enroll(
         self,
@@ -146,12 +165,13 @@ class Atlas:
             == 1
         )
 
-    def eligible(self, con, mid, query, trail=(), deadline=None):
-        if deadline is not None and time.perf_counter() >= deadline:
-            raise TimeoutError
-        if mid in trail or len(trail) >= 12:
-            return False
-        if has(con,"life_policy") and con.execute("SELECT 1 FROM life_policy WHERE id=? AND archived=1",(mid,)).fetchone():
+    def _admission(self, con, mid, query):
+        if (
+            has(con, "life_policy")
+            and con.execute(
+                "SELECT 1 FROM life_policy WHERE id=? AND archived=1", (mid,)
+            ).fetchone()
+        ):
             return False
         row = con.execute(
             """SELECT a.*,m.kind FROM atlas_items a JOIN memories m ON a.id=m.id
@@ -173,6 +193,16 @@ class Atlas:
             bounds = policy(con)
             if not bounds["recall"] or domains.intersection(bounds["blocked_domains"]):
                 return False
+        return row
+
+    def eligible(self, con, mid, query, trail=(), deadline=None):
+        if deadline is not None and time.perf_counter() >= deadline:
+            raise TimeoutError
+        if mid in trail or len(trail) >= 12:
+            return False
+        row = self._admission(con, mid, query)
+        if not row:
+            return False
         if (
             has(con, "evidence_reviews")
             and con.execute(
@@ -191,16 +221,13 @@ class Atlas:
                     tuple(proof),
                 ).fetchone():
                     return False
-                target = con.execute(
-                    """SELECT a.conditions FROM atlas_items a JOIN atlas_facets f ON f.id=a.id
-                    JOIN relation_events r ON r.memory_id=a.id
-                    WHERE a.id=? AND live=1 AND since<=? AND (until IS NULL OR until>?)
-                    AND NOT EXISTS(SELECT 1 FROM memories n WHERE n.supersedes=a.id)
-                    AND f.axis='domain' AND f.value=r.domain AND f.value=?""",
-                    (proof[0], query.as_of, query.as_of, query.domain),
-                ).fetchone()
-                if not target or not set(json.loads(target[0])).issubset(
-                    query.conditions
+                target = self._admission(con, proof[0], query)
+                if (
+                    not target
+                    or not con.execute(
+                        "SELECT 1 FROM relation_events WHERE memory_id=? AND domain=?",
+                        (proof[0], query.domain),
+                    ).fetchone()
                 ):
                     return False
         if row["kind"] == "reflection" or row["version"] is not None:

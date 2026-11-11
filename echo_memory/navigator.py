@@ -23,6 +23,11 @@ class Query:
 
     def __post_init__(self):
         date.fromisoformat(self.as_of)
+        if not isinstance(self.conditions, (tuple, list)) or not all(
+            isinstance(condition, str) and condition.strip() for condition in self.conditions
+        ):
+            raise ValueError("Expected a sequence of explicit conditions")
+        object.__setattr__(self, "conditions", tuple(self.conditions))
         if not self.domain or not self.text.strip():
             raise ValueError("Domain and task required")
 

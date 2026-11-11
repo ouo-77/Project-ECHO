@@ -80,7 +80,8 @@ class Lifecycle:
             )
             con.execute(
                 """INSERT INTO life_policy(id,level,due,reasons) VALUES(?,?,?,?)
-                ON CONFLICT(id) DO UPDATE SET level=excluded.level,due=excluded.due,reasons=excluded.reasons""",
+                ON CONFLICT(id) DO UPDATE SET level=excluded.level,due=excluded.due,reasons=excluded.reasons,
+                archived=CASE WHEN excluded.level=3 THEN 0 ELSE life_policy.archived END""",
                 (mid, level, due, json.dumps(reasons)),
             )
             return level

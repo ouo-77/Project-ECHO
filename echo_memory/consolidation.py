@@ -31,6 +31,13 @@ class Consolidation:
                 CREATE TRIGGER IF NOT EXISTS lesson_revision AFTER INSERT ON memories WHEN NEW.supersedes IS NOT NULL BEGIN
                   INSERT OR IGNORE INTO lesson_dirty SELECT domain,feature,conditions FROM lesson_inputs WHERE mid=NEW.supersedes;
                 END;
+                CREATE TRIGGER IF NOT EXISTS lesson_grant AFTER UPDATE OF live ON atlas_items BEGIN
+                    INSERT OR IGNORE INTO lesson_dirty SELECT domain,feature,conditions FROM lesson_inputs WHERE mid=NEW.id;
+                END;
+                CREATE TRIGGER IF NOT EXISTS lesson_derivation AFTER INSERT ON atlas_edges
+                WHEN NEW.kind IN ('supports','derived_from') BEGIN
+                    INSERT OR IGNORE INTO lesson_dirty SELECT domain,feature,conditions FROM lesson_inputs WHERE mid=NEW.src;
+                END;
             """)
 
     def register(self, mid, domain, conditions=()):
@@ -39,7 +46,9 @@ class Consolidation:
             con.execute("BEGIN IMMEDIATE")
             row = con.execute(
                 """SELECT m.tags,m.kind,m.origin,e.confidence,e.source_ref,a.conditions FROM memories m
-                JOIN evidence e ON e.memory_id=m.id JOIN atlas_items a ON a.id=m.id WHERE m.id=?""",
+                JOIN evidence e ON e.memory_id=m.id JOIN atlas_items a ON a.id=m.id WHERE m.id=?
+                AND a.version IS NULL AND NOT EXISTS (SELECT 1 FROM atlas_edges
+                    WHERE src=m.id AND kind IN ('supports','derived_from'))""",
                 (mid,),
             ).fetchone()
             if (
@@ -74,10 +83,12 @@ class Consolidation:
             """SELECT i.mid,i.role,i.source FROM lesson_inputs i
                JOIN evidence e ON e.memory_id=i.mid AND e.source_ref=i.source
                JOIN memories m ON m.id=i.mid AND m.kind='experience' AND m.origin=?
+               JOIN atlas_items a ON a.id=m.id AND a.version IS NULL
                WHERE i.domain=? AND i.feature='path-check' AND i.conditions=? AND e.confidence>=0.5
                AND EXISTS (SELECT 1 FROM json_each(m.tags) WHERE value=i.role)
                AND EXISTS (SELECT 1 FROM json_each(m.tags) WHERE value='consolidate=allow')
                AND EXISTS (SELECT 1 FROM json_each(m.tags) WHERE value='domain='||i.domain)
+               AND NOT EXISTS (SELECT 1 FROM atlas_edges WHERE src=m.id AND kind IN ('supports','derived_from'))
                ORDER BY i.mid""",
             (self.atlas.verifier, q.domain, scope),
         ):

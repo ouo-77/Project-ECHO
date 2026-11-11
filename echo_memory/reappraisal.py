@@ -24,7 +24,10 @@ def effective_events(con, as_of=None):
         JOIN memories m ON m.id=r.memory_id JOIN evidence e ON e.memory_id=m.id
         LEFT JOIN evidence_reviews v ON v.seq=(SELECT MAX(h.seq) FROM evidence_reviews h
             WHERE h.target=r.memory_id AND (? IS NULL OR h.at<=?))
-        WHERE e.source_ref=r.source_ref AND (? IS NULL OR r.at<=?)
+        WHERE m.kind='experience' AND m.origin=r.source AND e.source_ref=r.source_ref AND (? IS NULL OR r.at<=?)
+        AND (v.seq IS NULL OR EXISTS(SELECT 1 FROM memories p JOIN evidence ep ON ep.memory_id=p.id
+            WHERE p.id=v.proof_id AND p.kind='fact' AND p.origin=v.verifier AND ep.source_ref=v.source_ref
+            AND NOT EXISTS(SELECT 1 FROM memories newer WHERE newer.supersedes=p.id)))
         AND NOT EXISTS(SELECT 1 FROM memories n WHERE n.supersedes=m.id)
         ORDER BY r.seq""", (as_of, as_of, as_of, as_of))
 
@@ -68,6 +71,11 @@ class EvidenceReview:
                     verifier TEXT NOT NULL, at TEXT NOT NULL, replacement TEXT NOT NULL,
                     report TEXT NOT NULL);
                 CREATE INDEX IF NOT EXISTS ix_reviews_target ON evidence_reviews(target,seq);
+                CREATE TRIGGER IF NOT EXISTS immutable_review_identity BEFORE INSERT ON memories
+                WHEN EXISTS(SELECT 1 FROM evidence_reviews WHERE proof_id=NEW.id)
+                    OR EXISTS(SELECT 1 FROM relation_events WHERE memory_id=NEW.id) BEGIN
+                    SELECT RAISE(ABORT, 'Evidence ID reserved by the historical ledger');
+                END;
                 CREATE TRIGGER IF NOT EXISTS reviewed_event_order BEFORE INSERT ON relation_events
                 WHEN EXISTS(SELECT 1 FROM evidence_reviews WHERE at>NEW.at) BEGIN
                     SELECT RAISE(ABORT, 'Encounter predates an admitted review');

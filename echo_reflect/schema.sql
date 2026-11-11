@@ -25,6 +25,17 @@ CREATE TRIGGER IF NOT EXISTS reflect_review AFTER INSERT ON evidence_reviews BEG
     UPDATE reflect_heads SET dirty='review:' || NEW.proof_id
     WHERE version IN (SELECT version FROM reflect_deps WHERE event=NEW.target);
 END;
+CREATE INDEX IF NOT EXISTS ix_reflect_proof ON reflect_deps(proof);
+CREATE TRIGGER IF NOT EXISTS reflect_proof_deleted AFTER DELETE ON memories BEGIN
+    UPDATE reflect_heads SET dirty='removed proof:' || OLD.id
+    WHERE version IN (SELECT version FROM reflect_deps WHERE proof=OLD.id);
+    DELETE FROM reflect_approvals WHERE proof=OLD.id;
+END;
+CREATE TRIGGER IF NOT EXISTS reflect_proof_superseded AFTER INSERT ON memories WHEN NEW.supersedes IS NOT NULL BEGIN
+    UPDATE reflect_heads SET dirty='superseded proof:' || NEW.supersedes
+    WHERE version IN (SELECT version FROM reflect_deps WHERE proof=NEW.supersedes);
+    DELETE FROM reflect_approvals WHERE proof=NEW.supersedes;
+END;
 CREATE TRIGGER IF NOT EXISTS reflect_removed AFTER DELETE ON memories BEGIN
     UPDATE reflect_heads SET dirty='deleted:' || OLD.id
     WHERE version IN (SELECT version FROM reflect_deps WHERE event=OLD.id)

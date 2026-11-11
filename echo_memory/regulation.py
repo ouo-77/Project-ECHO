@@ -38,6 +38,10 @@ class Regulation:
                     seq INTEGER PRIMARY KEY, proof_id TEXT UNIQUE NOT NULL, source_ref TEXT UNIQUE NOT NULL,
                     at TEXT NOT NULL, domain TEXT NOT NULL, measure TEXT NOT NULL, value TEXT NOT NULL,
                     target TEXT NOT NULL, reason TEXT NOT NULL, previous TEXT, confidence REAL NOT NULL);
+                CREATE TRIGGER IF NOT EXISTS immutable_regulation_identity BEFORE INSERT ON memories
+                WHEN EXISTS(SELECT 1 FROM regulation_history WHERE proof_id=NEW.id) BEGIN
+                    SELECT RAISE(ABORT, 'Regulation proof ID reserved by the historical ledger');
+                END;
             """)
             config = json.dumps(cfg, sort_keys=True)
             con.execute("INSERT OR IGNORE INTO regulation_model VALUES(1,?)", (config,))
@@ -141,13 +145,22 @@ class Regulation:
                 anchor_score = past["domain_trust"].get(domain, .5)
             else:
                 anchor_score = .5
-            changes = [dict(r) for r in con.execute("""SELECT * FROM regulation_history
-                WHERE domain=? AND at<=? ORDER BY seq""", (domain, stamp))]
+            changes = [dict(r) for r in con.execute("""SELECT h.*, EXISTS(
+                SELECT 1 FROM memories m JOIN evidence e ON e.memory_id=m.id
+                WHERE m.id=h.proof_id AND m.kind='fact' AND e.source_ref=h.source_ref
+                AND NOT EXISTS(SELECT 1 FROM memories newer WHERE newer.supersedes=m.id)
+                ) AS evidence_active FROM regulation_history h
+                WHERE h.domain=? AND h.at<=? ORDER BY h.seq""", (domain, stamp))]
             loss = {}
             choices = dict(boundary="open", forgiveness="undecided", reconciliation="undecided")
             for change in changes:
                 if change["measure"] == "loss":
-                    loss[change["target"]] = change
+                    if change["evidence_active"]:
+                        loss[change["target"]] = change
+                    else:
+                        loss.pop(change["target"], None)
+                elif not change["evidence_active"]:
+                    choices[change["measure"]] = "paused" if change["measure"] == "boundary" else "undecided"
                 else:
                     choices[change["measure"]] = change["value"]
             total_loss = 0

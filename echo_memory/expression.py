@@ -33,6 +33,13 @@ class Turn:
     claim: str = ""
     proof_id: str = ""
 
+    def __post_init__(self):
+        if any(
+            type(value) is not bool
+            for value in (self.informal, self.strong, self.profanity, self.mutual_jokes)
+        ):
+            raise ValueError("Expression preferences require explicit booleans")
+
 
 def contains(text, words):
     return any(word in text for word in words)

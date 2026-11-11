@@ -71,6 +71,9 @@ class SemanticNavigator(Navigator):
             row = con.execute(
                 "SELECT content,kind FROM memories WHERE id=?", (mid,)
             ).fetchone()
+            literal = c["fields"].get("关键词")
+            if literal and literal not in row["content"]:
+                continue
             if row["kind"] != "fact" or not all(
                 w in row["content"] for w in c["verify_terms"]
             ):
