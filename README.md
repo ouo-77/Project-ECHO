@@ -2,7 +2,9 @@
 
 > An experiment in persistent memory, self-reflection, and accountable autonomous learning.
 
-**Status:** ECHO-005 — offline experiments on memory retention and context-sensitive expression (2026-11-11).
+**Status:** ECHO-005.1 — independent offline evaluation and evidence reliability audit (2026-11-11).
+
+ECHO-005.1 冻结了 229 道中文检索题与 40 个表达场景，并用 10,000 条合成记忆检查并发清理、证据撤销、重启和回滚。[完整报告](experiments/echo0051/REPORT.md) · [成长日志 008](journal/008-2026-11-11.md)
 
 ECHO-005 在既有关系与时间调节状态上比较三种表达策略。[表达接口与实验报告](experiments/echo005/REPORT.md) · [成长日志 007](journal/007-2026-11-11.md)
 

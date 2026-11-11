@@ -1,0 +1,107 @@
+{
+  "count": 10000,
+  "important": 6000,
+  "lost_important": 0,
+  "expired": 4000,
+  "remaining": 6000,
+  "initial": {
+    "policy_hash": "3c3af020ed4d92528f14983bb52181d1b83d9ac8a1c02aad5858f75d3e8702be",
+    "counts": [
+      [
+        0,
+        0,
+        2000
+      ],
+      [
+        1,
+        0,
+        2000
+      ],
+      [
+        2,
+        0,
+        4000
+      ],
+      [
+        3,
+        0,
+        2000
+      ]
+    ],
+    "receipts": 0,
+    "integrity": "ok"
+  },
+  "restarted": {
+    "policy_hash": "6c94b30bafe4a92ecb257b51e0822702975cdf52ced66b2c01c07b18289954ea",
+    "counts": [
+      [
+        2,
+        0,
+        2000
+      ],
+      [
+        2,
+        1,
+        2000
+      ],
+      [
+        3,
+        0,
+        2000
+      ]
+    ],
+    "receipts": 4000,
+    "integrity": "ok"
+  },
+  "checks": {
+    "fts_matches": true,
+    "receipts_match": true,
+    "expired_absent": true,
+    "archive_match": true,
+    "archive_suppressed": true,
+    "no_duplicate_sweep": true,
+    "foreign_owner_blocked": true,
+    "foreign_domain_hidden": true,
+    "reopened_same": true,
+    "rollback": true,
+    "source_unchanged": true,
+    "foreign_keys_clean": true,
+    "sqlite_integrity": true
+  },
+  "before": {
+    "file_bytes": 10330112,
+    "reusable_bytes": 0,
+    "body_bytes": 850000
+  },
+  "after": {
+    "file_bytes": 11923456,
+    "reusable_bytes": 1851392,
+    "body_bytes": 510000
+  },
+  "before_cost": {
+    "median_ms": 5.437649997475091,
+    "tokens": 580,
+    "correct": 20,
+    "queries": 20
+  },
+  "after_cost": {
+    "median_ms": 8.581299998695613,
+    "tokens": 580,
+    "correct": 20,
+    "queries": 20
+  },
+  "summary": {
+    "valid": true,
+    "original_sources": 7,
+    "conditions_preserved": true,
+    "expired_blocked": true,
+    "repeat_stable": true,
+    "original_bytes": 959,
+    "suggestion_bytes": 78,
+    "scoped_payload_bytes": 628,
+    "deleted_blocked": true,
+    "recalculated": "candidate",
+    "reused_id_blocked": true
+  },
+  "seconds": 79.5290296000021
+}

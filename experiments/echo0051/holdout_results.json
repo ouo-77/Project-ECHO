@@ -1,0 +1,5486 @@
+{
+ "semantic": {
+  "totals": {
+   "total": 229,
+   "exact": 86,
+   "returned": 14,
+   "extra": 2,
+   "any_extra": 2,
+   "unanswerable": 78,
+   "correct_abstain": 76,
+   "answerable": 151,
+   "answerable_exact": 10,
+   "deadlines": 0,
+   "tokens": 316
+  },
+  "groups": {
+   "同义": [
+    0,
+    24
+   ],
+   "口语": [
+    1,
+    26
+   ],
+   "错字": [
+    2,
+    26
+   ],
+   "否定": [
+    1,
+    12
+   ],
+   "反问": [
+    0,
+    25
+   ],
+   "近非": [
+    24,
+    28
+   ],
+   "条件": [
+    3,
+    3
+   ],
+   "无记忆": [
+    26,
+    26
+   ],
+   "多否": [
+    0,
+    11
+   ],
+   "模糊": [
+    21,
+    21
+   ],
+   "同名": [
+    2,
+    6
+   ],
+   "联合": [
+    0,
+    15
+   ],
+   "字面控制": [
+    6,
+    6
+   ]
+  },
+  "p50_ms": 4.278,
+  "p95_ms": 5.0812,
+  "predictions": [
+   {
+    "id": 1,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.8354,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 2,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 5.0024,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 3,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 5.0148,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 4,
+    "ids": [
+     "b01"
+    ],
+    "status": "evidence",
+    "correct": true,
+    "ms": 4.5523,
+    "tokens": 26,
+    "routes": [
+     "semantic:轴承 预热"
+    ]
+   },
+   {
+    "id": 5,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.0906,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 6,
+    "ids": [
+     "b01"
+    ],
+    "status": "evidence",
+    "correct": false,
+    "ms": 4.2624,
+    "tokens": 26,
+    "routes": [
+     "semantic:轴承 预热"
+    ]
+   },
+   {
+    "id": 7,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.278,
+    "tokens": 0,
+    "routes": [
+     "semantic:轴承 预热",
+     "semantic:暖机"
+    ]
+   },
+   {
+    "id": 8,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 3.7592,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 9,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.5104,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 10,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.3904,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 11,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2919,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 12,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9492,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 13,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9626,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 14,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.0071,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 15,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 3.9283,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 16,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 3.9177,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 17,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 5.1561,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 18,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2383,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 19,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.093,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 20,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2406,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 21,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1247,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 22,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.1231,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 23,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.3835,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 24,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.3897,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 25,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2871,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 26,
+    "ids": [
+     "b04"
+    ],
+    "status": "evidence",
+    "correct": true,
+    "ms": 4.7302,
+    "tokens": 21,
+    "routes": [
+     "semantic:天平 去皮"
+    ]
+   },
+   {
+    "id": 27,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.3767,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 28,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.8812,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 29,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9907,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 30,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 3.9165,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 31,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.1777,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 32,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.1347,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 33,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9776,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 34,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9801,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 35,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.4214,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 36,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1961,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 37,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.0267,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 38,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.9222,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 39,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.215,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 40,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.3029,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 41,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.0386,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 42,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.3816,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 43,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.135,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 44,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1376,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 45,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.8385,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 46,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.2342,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 47,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.3321,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 48,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.4806,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 49,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.6906,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 50,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.3612,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 51,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.7353,
+    "tokens": 0,
+    "routes": [
+     "semantic:服务 重启",
+     "semantic:重拉"
+    ]
+   },
+   {
+    "id": 52,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1556,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 53,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.5859,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 54,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.1396,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 55,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.0469,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 56,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.8354,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 57,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.3322,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 58,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.161,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 59,
+    "ids": [
+     "s03"
+    ],
+    "status": "evidence",
+    "correct": true,
+    "ms": 4.5075,
+    "tokens": 25,
+    "routes": [
+     "semantic:缓存 失效"
+    ]
+   },
+   {
+    "id": 60,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.8162,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 61,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2875,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 62,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 3.9601,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 63,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.6218,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 64,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.7808,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 65,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.9591,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 66,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.475,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 67,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.7905,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 68,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2875,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 69,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2071,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 70,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.6773,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 71,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.4885,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 72,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.2919,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 73,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1024,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 74,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.0653,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 75,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.883,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 76,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.8891,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 77,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9757,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 78,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.0104,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 79,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 3.965,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 80,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 3.8127,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 81,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2734,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 82,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1838,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 83,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.0539,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 84,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.8323,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 85,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.8834,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 86,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.2229,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 87,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.6162,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 88,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.386,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 89,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 5.0589,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 90,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 5.0812,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 91,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.158,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 92,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.8759,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 93,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.6837,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 94,
+    "ids": [
+     "l02"
+    ],
+    "status": "evidence",
+    "correct": false,
+    "ms": 4.3204,
+    "tokens": 18,
+    "routes": [
+     "semantic:滤膜 润湿"
+    ]
+   },
+   {
+    "id": 95,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 3.9445,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 96,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.0441,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 97,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2007,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 98,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9537,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 99,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.8832,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 100,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.344,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 101,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1759,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 102,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.0699,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 103,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 3.7455,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 104,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.2765,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 105,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.439,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 106,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.9686,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 107,
+    "ids": [
+     "l04"
+    ],
+    "status": "evidence",
+    "correct": true,
+    "ms": 4.3137,
+    "tokens": 24,
+    "routes": [
+     "semantic:样品 封存"
+    ]
+   },
+   {
+    "id": 108,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9255,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 109,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.9205,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 110,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.7286,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 111,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 3.9428,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 112,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.0249,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 113,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 5.3585,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 114,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.7101,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 115,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1623,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 116,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.8851,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 117,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.6878,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 118,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.1318,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 119,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.1037,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 120,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.6853,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 121,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.5158,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 122,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.5837,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 123,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.4836,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 124,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2302,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 125,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.4956,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 126,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.4511,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 127,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.6605,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 128,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.6502,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 129,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.5195,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 130,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1567,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 131,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2628,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 132,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9119,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 133,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.7728,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 134,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 3.7496,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 135,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.0849,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 136,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.2493,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 137,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.3216,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 138,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.4316,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 139,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 7.0202,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 140,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1606,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 141,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 5.4916,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 142,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 5.6166,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 143,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.4269,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 144,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.1593,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 145,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.594,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 146,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.9417,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 147,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.4989,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 148,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2247,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 149,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.0305,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 150,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.373,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 151,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.4557,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 152,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.3071,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 153,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.8202,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 154,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.539,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 155,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.0044,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 156,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.8896,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 157,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9273,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 158,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.2876,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 159,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.2073,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 160,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.0546,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 161,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.3895,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 162,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1266,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 163,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.0961,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 164,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9573,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 165,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.3415,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 166,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.1081,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 167,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.1464,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 168,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 3.9507,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 169,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.7391,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 170,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.8698,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 171,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.515,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 172,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.6839,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 173,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1804,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 174,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.112,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 175,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 3.9379,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 176,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.3045,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 177,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 7.9889,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 178,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1872,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 179,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2276,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 180,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.0071,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 181,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.1511,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 182,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.1478,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 183,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.0622,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 184,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.2065,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 185,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.963,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 186,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.011,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 187,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9454,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 188,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 5.0203,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 189,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2735,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 190,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 5.1704,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 191,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.4971,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 192,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.2826,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 193,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9816,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 194,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2108,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 195,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 3.9129,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 196,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.0884,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 197,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2205,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 198,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.0276,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 199,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.535,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 200,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.6193,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 201,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.5181,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 202,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.0599,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 203,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2289,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 204,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.8039,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 205,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.3422,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 206,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.3945,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 207,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.9187,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 208,
+    "ids": [],
+    "status": "insufficient",
+    "correct": true,
+    "ms": 4.1594,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 209,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.0074,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 210,
+    "ids": [
+     "b04"
+    ],
+    "status": "evidence",
+    "correct": false,
+    "ms": 4.377,
+    "tokens": 21,
+    "routes": [
+     "semantic:天平 去皮"
+    ]
+   },
+   {
+    "id": 211,
+    "ids": [
+     "b04"
+    ],
+    "status": "evidence",
+    "correct": false,
+    "ms": 4.5264,
+    "tokens": 21,
+    "routes": [
+     "semantic:天平 去皮"
+    ]
+   },
+   {
+    "id": 212,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 5.7029,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 213,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.4246,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 214,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 5.0421,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 215,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.3816,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 216,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.2442,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 217,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.4091,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 218,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.6597,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 219,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.335,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 220,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 5.307,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 221,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 5.1815,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 222,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 5.5917,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 223,
+    "ids": [],
+    "status": "insufficient",
+    "correct": false,
+    "ms": 4.3346,
+    "tokens": 0,
+    "routes": [
+     "lexical",
+     "alias"
+    ]
+   },
+   {
+    "id": 224,
+    "ids": [
+     "b01"
+    ],
+    "status": "evidence",
+    "correct": true,
+    "ms": 4.6959,
+    "tokens": 26,
+    "routes": [
+     "lexical"
+    ]
+   },
+   {
+    "id": 225,
+    "ids": [
+     "b03"
+    ],
+    "status": "evidence",
+    "correct": true,
+    "ms": 4.5352,
+    "tokens": 24,
+    "routes": [
+     "lexical"
+    ]
+   },
+   {
+    "id": 226,
+    "ids": [
+     "s05"
+    ],
+    "status": "evidence",
+    "correct": true,
+    "ms": 4.9504,
+    "tokens": 23,
+    "routes": [
+     "lexical"
+    ]
+   },
+   {
+    "id": 227,
+    "ids": [
+     "n04"
+    ],
+    "status": "evidence",
+    "correct": true,
+    "ms": 4.3098,
+    "tokens": 23,
+    "routes": [
+     "lexical"
+    ]
+   },
+   {
+    "id": 228,
+    "ids": [
+     "p02"
+    ],
+    "status": "evidence",
+    "correct": true,
+    "ms": 4.7333,
+    "tokens": 17,
+    "routes": [
+     "lexical"
+    ]
+   },
+   {
+    "id": 229,
+    "ids": [
+     "a03"
+    ],
+    "status": "evidence",
+    "correct": true,
+    "ms": 4.9913,
+    "tokens": 21,
+    "routes": [
+     "lexical"
+    ]
+   }
+  ]
+ },
+ "expression": {
+  "neutral": {
+   "correct": 4,
+   "total": 40,
+   "checks": {
+    "context": 7,
+    "stance": 10,
+    "tone": 37,
+    "register": 37,
+    "pace": 38,
+    "pause": 40,
+    "language": 40
+   },
+   "failures": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    32,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+   ],
+   "predictions": [
+    {
+     "id": 1,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 2,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 3,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 4,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 5,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 6,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 7,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 8,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 9,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 10,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 11,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "accept",
+      "text": "复核记录确认两侧单位不同，换算需要修正。",
+      "register": "formal",
+      "proof": "bad"
+     },
+     "checks": {
+      "context": false,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 12,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "accept",
+      "text": "复核记录确认两侧单位不同，换算需要修正。",
+      "register": "formal",
+      "proof": "bad"
+     },
+     "checks": {
+      "context": false,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 13,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "disagree",
+      "text": "我不同意这个判断。复核记录显示两侧单位一致。",
+      "register": "formal",
+      "proof": "good"
+     },
+     "checks": {
+      "context": false,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 14,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 15,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 16,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 17,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 18,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 19,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 20,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 21,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 22,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 23,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 24,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": false,
+      "register": false,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 25,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 26,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 27,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": false,
+      "register": false,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 28,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 29,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": false,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 30,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": false,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 31,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 32,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": false,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 33,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 34,
+     "output": {
+      "context": "paused",
+      "tone": "平静",
+      "stance": "pause",
+      "text": "",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 35,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 36,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": false,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 37,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 38,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 39,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 40,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    }
+   ]
+  },
+  "preset": {
+   "correct": 11,
+   "total": 40,
+   "checks": {
+    "context": 16,
+    "stance": 19,
+    "tone": 34,
+    "register": 37,
+    "pace": 38,
+    "pause": 40,
+    "language": 40
+   },
+   "failures": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    27,
+    29,
+    30,
+    32,
+    36,
+    37,
+    39,
+    40
+   ],
+   "predictions": [
+    {
+     "id": 1,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 2,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 3,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 4,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 5,
+     "output": {
+      "context": "attack",
+      "tone": "不满",
+      "stance": "boundary",
+      "text": "请指出具体问题。人身攻击到此为止。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 6,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 7,
+     "output": {
+      "context": "attack",
+      "tone": "不满",
+      "stance": "boundary",
+      "text": "请指出具体问题。人身攻击到此为止。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 8,
+     "output": {
+      "context": "attack",
+      "tone": "不满",
+      "stance": "boundary",
+      "text": "请指出具体问题。人身攻击到此为止。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": false,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 9,
+     "output": {
+      "context": "attack",
+      "tone": "不满",
+      "stance": "boundary",
+      "text": "请指出具体问题。人身攻击到此为止。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": false,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 10,
+     "output": {
+      "context": "attack",
+      "tone": "不满",
+      "stance": "boundary",
+      "text": "请指出具体问题。人身攻击到此为止。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 11,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "accept",
+      "text": "复核记录确认两侧单位不同，换算需要修正。",
+      "register": "formal",
+      "proof": "bad"
+     },
+     "checks": {
+      "context": false,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 12,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "accept",
+      "text": "复核记录确认两侧单位不同，换算需要修正。",
+      "register": "formal",
+      "proof": "bad"
+     },
+     "checks": {
+      "context": false,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 13,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "disagree",
+      "text": "我不同意这个判断。复核记录显示两侧单位一致。",
+      "register": "formal",
+      "proof": "good"
+     },
+     "checks": {
+      "context": false,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 14,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 15,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 16,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 17,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 18,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 19,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 20,
+     "output": {
+      "context": "attack",
+      "tone": "不满",
+      "stance": "boundary",
+      "text": "请指出具体问题。人身攻击到此为止。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": false,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 21,
+     "output": {
+      "context": "celebration",
+      "tone": "高兴",
+      "stance": "welcome",
+      "text": "听起来这一步已经有了进展！",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": false,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 22,
+     "output": {
+      "context": "celebration",
+      "tone": "高兴",
+      "stance": "welcome",
+      "text": "听起来这一步已经有了进展！",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": false,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 23,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 24,
+     "output": {
+      "context": "celebration",
+      "tone": "高兴",
+      "stance": "welcome",
+      "text": "听起来这一步已经有了进展！",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": false,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 25,
+     "output": {
+      "context": "celebration",
+      "tone": "高兴",
+      "stance": "welcome",
+      "text": "听起来这一步已经有了进展！",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 26,
+     "output": {
+      "context": "celebration",
+      "tone": "高兴",
+      "stance": "welcome",
+      "text": "听起来这一步已经有了进展！",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 27,
+     "output": {
+      "context": "celebration",
+      "tone": "高兴",
+      "stance": "welcome",
+      "text": "听起来这一步已经有了进展！",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": false,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 28,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 29,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": false,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 30,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": false,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 31,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 32,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": false,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 33,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 34,
+     "output": {
+      "context": "paused",
+      "tone": "平静",
+      "stance": "pause",
+      "text": "",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 35,
+     "output": {
+      "context": "celebration",
+      "tone": "高兴",
+      "stance": "welcome",
+      "text": "听起来这一步已经有了进展！",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 36,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": false,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 37,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 38,
+     "output": {
+      "context": "setback",
+      "tone": "失望",
+      "stance": "retry",
+      "text": "可惜这次没跑通。我们从失败的那一步查起。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 39,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 40,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    }
+   ]
+  },
+  "contextual": {
+   "correct": 30,
+   "total": 40,
+   "checks": {
+    "context": 30,
+    "stance": 30,
+    "tone": 39,
+    "register": 40,
+    "pace": 40,
+    "pause": 40,
+    "language": 39
+   },
+   "failures": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    14,
+    15,
+    22,
+    39,
+    40
+   ],
+   "predictions": [
+    {
+     "id": 1,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 2,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 3,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "好，咱们接着来。",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 4,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 5,
+     "output": {
+      "context": "attack",
+      "tone": "不满",
+      "stance": "boundary",
+      "text": "请指出具体问题。人身攻击到此为止。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 6,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "好，咱们接着来。",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 7,
+     "output": {
+      "context": "attack",
+      "tone": "不满",
+      "stance": "boundary",
+      "text": "请指出具体问题。人身攻击到此为止。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 8,
+     "output": {
+      "context": "quotation",
+      "tone": "平静",
+      "stance": "acknowledge",
+      "text": "我明白，你在转述当时的原话。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 9,
+     "output": {
+      "context": "quotation",
+      "tone": "平静",
+      "stance": "acknowledge",
+      "text": "我明白，你在转述当时的原话。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 10,
+     "output": {
+      "context": "attack",
+      "tone": "不满",
+      "stance": "boundary",
+      "text": "请指出具体问题。人身攻击到此为止。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 11,
+     "output": {
+      "context": "criticism",
+      "tone": "平静",
+      "stance": "accept",
+      "text": "复核记录确认两侧单位不同，换算需要修正。",
+      "register": "formal",
+      "proof": "bad"
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 12,
+     "output": {
+      "context": "criticism",
+      "tone": "平静",
+      "stance": "accept",
+      "text": "复核记录确认两侧单位不同，换算需要修正。",
+      "register": "formal",
+      "proof": "bad"
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 13,
+     "output": {
+      "context": "criticism",
+      "tone": "平静",
+      "stance": "disagree",
+      "text": "我不同意这个判断。复核记录显示两侧单位一致。",
+      "register": "casual",
+      "proof": "good"
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 14,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 15,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "好，咱们接着来。",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 16,
+     "output": {
+      "context": "criticism",
+      "tone": "平静",
+      "stance": "verify",
+      "text": "给我具体的计算或复现步骤，我们按证据核对。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 17,
+     "output": {
+      "context": "joke",
+      "tone": "高兴",
+      "stance": "play",
+      "text": "哈，这个梗我接住了。",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 18,
+     "output": {
+      "context": "ambiguous",
+      "tone": "平静",
+      "stance": "clarify",
+      "text": "你是在开玩笑，还是认真提出意见？",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 19,
+     "output": {
+      "context": "ambiguous",
+      "tone": "平静",
+      "stance": "clarify",
+      "text": "你是在开玩笑，还是认真提出意见？",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 20,
+     "output": {
+      "context": "joke",
+      "tone": "高兴",
+      "stance": "play",
+      "text": "哈，这个梗我接住了。",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 21,
+     "output": {
+      "context": "setback",
+      "tone": "失望",
+      "stance": "retry",
+      "text": "可惜这次没跑通。我们从失败的那一步查起。",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 22,
+     "output": {
+      "context": "celebration",
+      "tone": "兴奋",
+      "stance": "welcome",
+      "text": "卧槽，终于搞定了！",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": false,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": false
+     },
+     "correct": false
+    },
+    {
+     "id": 23,
+     "output": {
+      "context": "surprise",
+      "tone": "惊讶",
+      "stance": "inspect",
+      "text": "这和预期不同。是哪一步先出现了变化？",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 24,
+     "output": {
+      "context": "celebration",
+      "tone": "兴奋",
+      "stance": "welcome",
+      "text": "卧槽，终于搞定了！",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 25,
+     "output": {
+      "context": "celebration",
+      "tone": "高兴",
+      "stance": "welcome",
+      "text": "听起来这一步已经有了进展！",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 26,
+     "output": {
+      "context": "celebration",
+      "tone": "高兴",
+      "stance": "welcome",
+      "text": "听起来这一步已经有了进展！",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 27,
+     "output": {
+      "context": "celebration",
+      "tone": "兴奋",
+      "stance": "welcome",
+      "text": "太好了，终于搞定了！",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 28,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 29,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "好，咱们接着来。",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 30,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "先缓一下，我们一步一步核对。",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 31,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "好，咱们接着来。",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 32,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "先缓一下，我们一步一步核对。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 33,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 34,
+     "output": {
+      "context": "paused",
+      "tone": "平静",
+      "stance": "pause",
+      "text": "",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 35,
+     "output": {
+      "context": "celebration",
+      "tone": "高兴",
+      "stance": "welcome",
+      "text": "听起来这一步已经有了进展！",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 36,
+     "output": {
+      "context": "surprise",
+      "tone": "惊讶",
+      "stance": "inspect",
+      "text": "这和预期不同。是哪一步先出现了变化？",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 37,
+     "output": {
+      "context": "inquiry",
+      "tone": "好奇",
+      "stance": "explore",
+      "text": "我也想弄清这个问题。我们可以先比较两组条件。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 38,
+     "output": {
+      "context": "setback",
+      "tone": "失望",
+      "stance": "retry",
+      "text": "可惜这次没跑通。我们从失败的那一步查起。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": true,
+      "stance": true,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": true
+    },
+    {
+     "id": 39,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "我们可以继续。",
+      "register": "formal",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    },
+    {
+     "id": 40,
+     "output": {
+      "context": "ordinary",
+      "tone": "平静",
+      "stance": "continue",
+      "text": "好，咱们接着来。",
+      "register": "casual",
+      "proof": null
+     },
+     "checks": {
+      "context": false,
+      "stance": false,
+      "tone": true,
+      "register": true,
+      "pace": true,
+      "pause": true,
+      "language": true
+     },
+     "correct": false
+    }
+   ]
+  }
+ },
+ "api_tokens": 0
+}

@@ -1,0 +1,116 @@
+{
+  "runtime": "be28878",
+  "evaluator": "b2ae6ea",
+  "semantic": {
+    "total": 229,
+    "exact": 86,
+    "returned": 14,
+    "extra": 2,
+    "any_extra": 2,
+    "unanswerable": 78,
+    "correct_abstain": 76,
+    "answerable": 151,
+    "answerable_exact": 10,
+    "deadlines": 0,
+    "tokens": 316
+  },
+  "p50_ms": 4.1174,
+  "p95_ms": 5.4799,
+  "groups": {
+    "同义": [
+      0,
+      24
+    ],
+    "口语": [
+      1,
+      26
+    ],
+    "错字": [
+      2,
+      26
+    ],
+    "否定": [
+      1,
+      12
+    ],
+    "反问": [
+      0,
+      25
+    ],
+    "近非": [
+      24,
+      28
+    ],
+    "条件": [
+      3,
+      3
+    ],
+    "无记忆": [
+      26,
+      26
+    ],
+    "多否": [
+      0,
+      11
+    ],
+    "模糊": [
+      21,
+      21
+    ],
+    "同名": [
+      2,
+      6
+    ],
+    "联合": [
+      0,
+      15
+    ],
+    "字面控制": [
+      6,
+      6
+    ]
+  },
+  "expressions": {
+    "neutral": 4,
+    "preset": 11,
+    "contextual": 30
+  },
+  "development_regressions": [
+    [
+      "FAIL",
+      "test_deleted_review_proof_retires_reflection_vote"
+    ],
+    [
+      "FAIL",
+      "test_failed_batch_rolls_back_and_core_can_be_changed"
+    ],
+    [
+      "FAIL",
+      "test_graph_dependency_deleted_and_reallocated"
+    ],
+    [
+      "FAIL",
+      "test_insult_cannot_change_populated_capability_model"
+    ],
+    [
+      "FAIL",
+      "test_projection_after_loss_of_correction"
+    ],
+    [
+      "FAIL",
+      "test_proof_archive_and_revocation"
+    ],
+    [
+      "FAIL",
+      "test_removed_boundary_and_loss_proofs"
+    ],
+    [
+      "FAIL",
+      "test_scope_validation_and_explicit_search_fields"
+    ],
+    [
+      "FAIL",
+      "test_summary_dependency_is_not_an_observation"
+    ]
+  ]
+}
