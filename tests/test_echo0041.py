@@ -6,6 +6,7 @@ import unittest
 from echo_memory import store
 from echo_memory.atlas import Atlas
 from echo_memory.lifecycle import Lifecycle
+from echo_memory.relationship import Relationship
 from echo_memory.consolidation import Consolidation
 from echo_memory.navigator import Query
 from echo_memory.semantic import SemanticNavigator
@@ -103,3 +104,32 @@ class SemanticAndRetention(unittest.TestCase):
         self.assertIsNone(manager.read(q)["text"])
         store.delete(atlas.path, "file-5")
         self.assertIsNone(manager.read(q))
+        # Reusing its former ID does not give a new fact the deleted trial's vote.
+        store.add(
+            atlas.path,
+            kind="fact",
+            content="无关的合成事实",
+            origin="synthetic",
+            memory_id="file-5",
+            occurred_at="2026-06-02T00:00:00Z",
+        )
+        with store.connection(atlas.path) as con:
+            atlas.enroll(con, "file-5", {"domain": ["software"]}, consent="fiction")
+        self.assertIsNone(manager.read(q))
+        manager.tidy(DAY)
+        self.assertNotIn("file-5", [r["mid"] for r in manager.read(q)["evidence"]])
+
+    def test_receipt_obeys_all_domain_grants(self):
+        atlas = setup(self.root)
+        actor = Relationship(atlas.path, atlas.owner)
+        manager = Lifecycle(atlas)
+        with store.connection(atlas.path) as con:
+            con.execute(
+                "INSERT INTO atlas_facets(id,axis,value) VALUES('lunch','domain','restricted')"
+            )
+        actor.set_policy(blocked_domains=["restricted"])
+        q = Query("午餐", "daily", DAY)
+        self.assertEqual(manager.status("lunch", q), "UNKNOWN")
+        manager.classify("lunch", temporary=True)
+        manager.sweep(DAY)
+        self.assertEqual(manager.status("lunch", q), "UNKNOWN")

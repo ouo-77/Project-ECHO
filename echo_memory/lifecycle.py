@@ -148,23 +148,32 @@ class Lifecycle:
     def status(self, mid, q):
         with store.connection(self.atlas.path) as con:
             con.execute("BEGIN")
+            blocked = set()
             if has(con, "relation_policy"):
                 p = policy(con)
+                blocked = set(p["blocked_domains"])
                 if not p["recall"] or q.domain in p["blocked_domains"]:
                     return "INACCESSIBLE"
             rec = con.execute(
                 "SELECT * FROM life_receipts WHERE id=?", (mid,)
             ).fetchone()
             if rec:
-                if q.domain in json.loads(rec["domains"]) and set(
-                    json.loads(rec["conditions"])
-                ) <= set(q.conditions):
+                domains = set(json.loads(rec["domains"]))
+                if domains & blocked:
+                    return "UNKNOWN"
+                if q.domain in domains and set(json.loads(rec["conditions"])) <= set(
+                    q.conditions
+                ):
                     return "FORGOTTEN"
                 return "UNKNOWN"
-            if not con.execute(
-                "SELECT 1 FROM atlas_facets WHERE id=? AND axis='domain' AND value=?",
-                (mid, q.domain),
-            ).fetchone():
+            domains = {
+                r[0]
+                for r in con.execute(
+                    "SELECT value FROM atlas_facets WHERE id=? AND axis='domain'",
+                    (mid,),
+                )
+            }
+            if q.domain not in domains or domains & blocked:
                 return "UNKNOWN"
             row = con.execute(
                 "SELECT live,conditions FROM atlas_items WHERE id=?", (mid,)

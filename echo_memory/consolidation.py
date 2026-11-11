@@ -24,8 +24,9 @@ class Consolidation:
                 CREATE TRIGGER IF NOT EXISTS lesson_add AFTER INSERT ON lesson_inputs BEGIN
                   INSERT OR IGNORE INTO lesson_dirty VALUES(NEW.domain,NEW.feature,NEW.conditions);
                 END;
-                CREATE TRIGGER IF NOT EXISTS lesson_delete AFTER DELETE ON memories BEGIN
+                CREATE TRIGGER IF NOT EXISTS lesson_unlink AFTER DELETE ON memories BEGIN
                   INSERT OR IGNORE INTO lesson_dirty SELECT domain,feature,conditions FROM lesson_inputs WHERE mid=OLD.id;
+                  DELETE FROM lesson_inputs WHERE mid=OLD.id;
                 END;
                 CREATE TRIGGER IF NOT EXISTS lesson_revision AFTER INSERT ON memories WHEN NEW.supersedes IS NOT NULL BEGIN
                   INSERT OR IGNORE INTO lesson_dirty SELECT domain,feature,conditions FROM lesson_inputs WHERE mid=NEW.supersedes;
@@ -70,9 +71,15 @@ class Consolidation:
     def _basis(self, con, q, scope):
         basis = []
         for r in con.execute(
-            """SELECT mid,role,source FROM lesson_inputs WHERE domain=? AND feature='path-check'
-                                AND conditions=? ORDER BY mid""",
-            (q.domain, scope),
+            """SELECT i.mid,i.role,i.source FROM lesson_inputs i
+               JOIN evidence e ON e.memory_id=i.mid AND e.source_ref=i.source
+               JOIN memories m ON m.id=i.mid AND m.kind='experience' AND m.origin=?
+               WHERE i.domain=? AND i.feature='path-check' AND i.conditions=? AND e.confidence>=0.5
+               AND EXISTS (SELECT 1 FROM json_each(m.tags) WHERE value=i.role)
+               AND EXISTS (SELECT 1 FROM json_each(m.tags) WHERE value='consolidate=allow')
+               AND EXISTS (SELECT 1 FROM json_each(m.tags) WHERE value='domain='||i.domain)
+               ORDER BY i.mid""",
+            (self.atlas.verifier, q.domain, scope),
         ):
             if self.atlas.eligible(con, r["mid"], q):
                 basis.append(dict(r))
