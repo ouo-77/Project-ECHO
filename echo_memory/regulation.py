@@ -2,6 +2,7 @@
 
 import json
 import math
+from contextlib import nullcontext
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -106,11 +107,15 @@ class Regulation:
 
     def at(self, domain, when=None):
         """As-of projection on active source records. Defaults to the actual UTC clock."""
+        return self._at(domain, when)
+
+    def _at(self, domain, when, connection=None):
         when = utc(when) if when is not None else datetime.now(timezone.utc)
         stamp = when.isoformat(timespec="microseconds")
         cfg = self.cfg
-        with store.connection(self.actor.path) as con:
-            con.execute("BEGIN")
+        with (store.connection(self.actor.path) if connection is None else nullcontext(connection)) as con:
+            if not con.in_transaction:
+                con.execute("BEGIN")
             settings = policy(con)
             if domain in settings["blocked_domains"] or not settings["recall"]:
                 raise PermissionError("Outside memory boundary")

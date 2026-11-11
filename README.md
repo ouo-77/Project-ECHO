@@ -2,7 +2,11 @@
 
 > An experiment in persistent memory, self-reflection, and accountable autonomous learning.
 
-**Status:** ECHO-004 — offline experiments on planning and adapting retrieval over authorized memories (2026-11-10).
+**Status:** ECHO-005 — offline experiments on memory retention and context-sensitive expression (2026-11-11).
+
+ECHO-005 在既有关系与时间调节状态上比较三种表达策略。[表达接口与实验报告](experiments/echo005/REPORT.md) · [成长日志 007](journal/007-2026-11-11.md)
+
+ECHO-004.1 的本地语义检索、选择性遗忘及增量整理可在合成库复现。[实验、接口与回滚](experiments/echo0041/REPORT.md) · [成长日志 006](journal/006-2026-11-11.md)
 
 ECHO-004 在独立 SQLite 快照上比较固定全文检索、多维索引和经反馈调整的检索路线。[认知蓝图](docs/COGNITIVE_ARCHITECTURE_V1.md) · [Atlas 与 Navigator 设计](docs/ECHO-004-design.md) · [实验与复现](experiments/echo004/REPORT.md)
 
@@ -12,7 +16,7 @@ Project ECHO investigates whether an AI-based agent can gradually improve its be
 
 - Long-term memory that survives process restarts.
 - Learning and corrections without silently rewriting history.
-- A testable computational model of internal emotional states (future research, not implemented yet).
+- Offline tests of computational affect, time regulation, and bounded language choices.
 - Independent reasoning with evidence-based disagreement and clearly bounded actions.
 - Honest self-description and uncertainty about machine consciousness.
 
@@ -84,8 +88,6 @@ print(memory.recall("演练", limit=2, max_chars=240))
 [设计与可调参数](docs/ECHO-002-design.md) · [实验报告与曲线](experiments/echo002/REPORT.md) · [成长日志 003](journal/003-2026-11-10.md)
 
 ## Boundaries
-
-ECHO-004.1 的本地语义检索、选择性遗忘及增量整理可在合成库复现。[实验、接口与回滚](experiments/echo0041/REPORT.md) · [成长日志 006](journal/006-2026-11-11.md)
 
 No credentials, QQ chat logs, private conversations, API responses, personal profiles, or local memory databases belong in this public repository. **Public visibility does not imply consent to publish any private transcript.**
 
