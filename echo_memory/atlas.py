@@ -151,6 +151,8 @@ class Atlas:
             raise TimeoutError
         if mid in trail or len(trail) >= 12:
             return False
+        if has(con,"life_policy") and con.execute("SELECT 1 FROM life_policy WHERE id=? AND archived=1",(mid,)).fetchone():
+            return False
         row = con.execute(
             """SELECT a.*,m.kind FROM atlas_items a JOIN memories m ON a.id=m.id
             WHERE a.id=? AND live=1 AND since<=? AND (until IS NULL OR until>?)

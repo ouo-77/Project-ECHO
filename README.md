@@ -85,6 +85,8 @@ print(memory.recall("演练", limit=2, max_chars=240))
 
 ## Boundaries
 
+ECHO-004.1 的本地语义检索、选择性遗忘及增量整理可在合成库复现。[实验、接口与回滚](experiments/echo0041/REPORT.md) · [成长日志 006](journal/006-2026-11-11.md)
+
 No credentials, QQ chat logs, private conversations, API responses, personal profiles, or local memory databases belong in this public repository. **Public visibility does not imply consent to publish any private transcript.**
 
 The prototype only stores text explicitly passed to its commands; it does not autonomously collect messages or infer intimate facts. It is a tool for experimenting with memory, not evidence of subjectivity or sentience.
